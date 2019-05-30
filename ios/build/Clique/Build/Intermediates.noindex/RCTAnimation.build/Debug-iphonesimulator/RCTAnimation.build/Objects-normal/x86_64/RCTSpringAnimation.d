@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTSpringAnimation.m \
+  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTSpringAnimation.h \
+  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTAnimationDriver.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/yoga/YGValue.h \
+  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/Libraries/NativeAnimation/RCTAnimationUtils.h \
+  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h
