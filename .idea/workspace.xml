@@ -1,13 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="885813a2-aa3a-4e8d-a188-f9fc5aea627e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ios/Clique/Images.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Clique/Images.xcassets/Logo.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Clique/Images.xcassets/Logo.imageset/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/.buckconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/.flowconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/.watchmanconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/__tests__/App-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/build_defs.bzl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/java/com/clique/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/java/com/clique/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/keystores/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/keystores/debug.keystore.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/Clique-tvOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/Clique-tvOSTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/Clique.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/Clique.xcodeproj/xcshareddata/xcschemes/Clique-tvOS.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/Clique.xcodeproj/xcshareddata/xcschemes/Clique.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/Clique/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/Clique/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/Clique/Base.lproj/LaunchScreen.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/Clique/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/Clique/Images.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/Clique/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/Clique/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/CliqueTests/CliqueTests.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/ios/CliqueTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/metro.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clique/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="885813a2-aa3a-4e8d-a188-f9fc5aea627e" name="Default Changelist" comment="" />
+      <created>1559211309989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559211309989</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32956383" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
   </component>
 </project>
