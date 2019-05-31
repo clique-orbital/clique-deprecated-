@@ -1,9 +1,9 @@
 dependencies: \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTParserUtils.m \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTParserUtils.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTUtils.h
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTParserUtils.m \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTParserUtils.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTUtils.h

@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/Libraries/Image/RCTImageBlurUtils.m \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/Libraries/Image/RCTImageBlurUtils.h \
-  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/Libraries/Image/RCTImageBlurUtils.m \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/Libraries/Image/RCTImageBlurUtils.h \
+  /Users/andyylam/Desktop/projects/clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h

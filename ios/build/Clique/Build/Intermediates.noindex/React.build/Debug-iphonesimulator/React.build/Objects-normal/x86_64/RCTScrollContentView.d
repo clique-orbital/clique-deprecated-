@@ -1,24 +1,24 @@
 dependencies: \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Views/ScrollView/RCTScrollContentView.m \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Views/ScrollView/RCTScrollContentView.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Views/RCTView.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Views/RCTBorderStyle.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Views/RCTPointerEvents.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Views/UIView+React.h \
-  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/ChesterSim/Desktop/Clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Views/ScrollView/RCTScrollView.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTEventDispatcher.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTFrameUpdate.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Views/ScrollView/RCTScrollableProtocol.h
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Views/ScrollView/RCTScrollContentView.m \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Views/ScrollView/RCTScrollContentView.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Views/RCTView.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/andyylam/Desktop/projects/clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/andyylam/Desktop/projects/clique/ios/build/Clique/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Views/ScrollView/RCTScrollView.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Views/ScrollView/RCTScrollableProtocol.h

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTMultipartStreamReader.m \
-  /Users/ChesterSim/Desktop/Clique/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTMultipartStreamReader.m \
+  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
