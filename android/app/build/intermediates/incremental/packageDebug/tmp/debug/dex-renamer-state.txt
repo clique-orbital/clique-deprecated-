@@ -1,4 +1,4 @@
-#Thu May 30 18:18:12 SGT 2019
-base.0=/Users/ChesterSim/Desktop/Clique/android/app/build/intermediates/transforms/dexMerger/debug/0
-renamed.0=classes.dex
+#Fri May 31 15:39:40 SGT 2019
+base.0=/Users/andyylam/Desktop/projects/clique/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
+renamed.0=classes.dex
