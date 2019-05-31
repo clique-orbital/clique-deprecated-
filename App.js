@@ -10,6 +10,7 @@ import NotificationsScreen from "./src/screens/Main/NotificationsScreen";
 import SettingsScreen from "./src/screens/Main/SettingsScreen";
 import PersonalCalendar from "./src/screens/Main/PersonalCalendar";
 import SplashScreen from "./src/screens/SplashScreen";
+
 import MyIcon from "./src/components/MyIcon";
 import IconWithBadge from "./src/components/IconWithBadge";
 import { cliqueBlue } from "./src/assets/constants";
@@ -27,28 +28,16 @@ const AppNavigator = createBottomTabNavigator(
         const { routeName } = navigation.state;
         let IconComponent = MyIcon;
         let iconName;
-        let iconStyle;
         if (routeName === "Group") {
-          iconName = `comments`;
-          iconStyle = focused ? "solid" : "regular";
+          iconName = `md-chatboxes`;
         } else if (routeName === "Calendar") {
-          iconName = `calendar`;
-          iconStyle = focused ? "solid" : "regular";
+          iconName = `md-calendar`;
         } else if (routeName === "Notifications") {
-          iconName = `bell`;
-          iconStyle = focused ? "solid" : "regular";
+          iconName = `md-notifications`;
         } else if (routeName === "Profile") {
-          iconName = `user-circle`;
-          iconStyle = focused ? "solid" : "regular";
+          iconName = `md-contact`;
         }
-        return (
-          <IconComponent
-            name={iconName}
-            size={25}
-            color={tintColor}
-            iconStyle={iconStyle}
-          />
-        );
+        return <IconComponent name={iconName} size={28} color={tintColor} />;
       }
     }),
     tabBarOptions: {
