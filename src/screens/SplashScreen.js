@@ -5,9 +5,9 @@ import { cliqueBlue } from "../assets/constants";
 import icon from "../assets/icon.png";
 
 class SplashScreen extends React.Component {
-  // preload data
+  // preload data (loading screen)
   async componentDidMount() {
-    this.props.navigation.navigate("App");
+    setTimeout(() => this.props.navigation.navigate("App"), 200); // simulate loading
   }
 
   render() {
