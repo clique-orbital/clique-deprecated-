@@ -1,0 +1,6 @@
+framework module Pods_Clique_tvOS {
+  umbrella header "Pods-Clique-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
