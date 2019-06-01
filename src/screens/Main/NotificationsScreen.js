@@ -1,10 +1,15 @@
 import React from "react";
 import { Text } from "react-native";
+import { SafeAreaView } from "react-navigation";
 
-class NavigationScreen extends React.Component {
+class NotificationsScreen extends React.Component {
   render() {
-    return <Text>This is the navigation screen!</Text>;
+    return (
+      <SafeAreaView>
+        <Text>This is the notifications screen!</Text>
+      </SafeAreaView>
+    );
   }
 }
 
-export default NavigationScreen;
+export default NotificationsScreen;

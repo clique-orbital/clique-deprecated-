@@ -2,7 +2,8 @@ import React from "react";
 import {
   createBottomTabNavigator,
   createAppContainer,
-  createSwitchNavigator
+  createSwitchNavigator,
+  SafeAreaView
 } from "react-navigation";
 
 import GroupScreen from "./src/screens/Main/GroupScreen";

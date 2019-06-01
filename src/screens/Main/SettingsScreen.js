@@ -1,9 +1,14 @@
 import React from "react";
 import { Text } from "react-native";
+import { SafeAreaView } from "react-navigation";
 
 class SettingsScreen extends React.Component {
   render() {
-    return <Text>This is the settings screen!</Text>;
+    return (
+      <SafeAreaView>
+        <Text>This is the settings screen!</Text>
+      </SafeAreaView>
+    );
   }
 }
 
