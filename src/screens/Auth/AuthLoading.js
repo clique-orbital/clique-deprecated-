@@ -1,10 +1,10 @@
 import React from "react";
 import { View, Text, StyleSheet, Image } from "react-native";
 
-import { cliqueBlue } from "../assets/constants";
-import icon from "../assets/icon.png";
+import { cliqueBlue } from "../../assets/constants";
+import icon from "../../assets/icon.png";
 
-class SplashScreen extends React.Component {
+class AuthLoading extends React.Component {
   // preload data (loading screen)
   async componentDidMount() {
     setTimeout(() => this.props.navigation.navigate("App"), 200); // simulate loading
@@ -34,4 +34,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default SplashScreen;
+export default AuthLoading;

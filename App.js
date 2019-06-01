@@ -2,15 +2,15 @@ import React from "react";
 import {
   createBottomTabNavigator,
   createAppContainer,
-  createSwitchNavigator,
-  SafeAreaView
+  createSwitchNavigator
 } from "react-navigation";
 
 import GroupScreen from "./src/screens/Main/GroupScreen";
 import NotificationsScreen from "./src/screens/Main/NotificationsScreen";
 import SettingsScreen from "./src/screens/Main/SettingsScreen";
 import PersonalCalendar from "./src/screens/Main/PersonalCalendar";
-import SplashScreen from "./src/screens/SplashScreen";
+import AuthLoading from "./src/screens/Auth/AuthLoading";
+import Auth from "./src/screens/Auth/Auth";
 
 import MyIcon from "./src/components/MyIcon";
 import IconWithBadge from "./src/components/IconWithBadge";
@@ -48,10 +48,16 @@ const AppNavigator = createBottomTabNavigator(
   }
 );
 
-const InitialNavigator = createSwitchNavigator({
-  Splash: SplashScreen,
-  App: AppNavigator
-});
+const InitialNavigator = createSwitchNavigator(
+  {
+    AuthLoading: AuthLoading,
+    App: AppNavigator,
+    Auth: Auth
+  },
+  {
+    initialRouteName: "Auth"
+  }
+);
 
 const AppContainer = createAppContainer(InitialNavigator);
 
