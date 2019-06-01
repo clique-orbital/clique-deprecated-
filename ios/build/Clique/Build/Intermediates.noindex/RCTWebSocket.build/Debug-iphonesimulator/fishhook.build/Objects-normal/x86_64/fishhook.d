@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/Libraries/fishhook/fishhook.c \
-  /Users/andyylam/Desktop/projects/clique/node_modules/react-native/Libraries/fishhook/fishhook.h
+  /Users/andyylam/Desktop/clique/node_modules/react-native/Libraries/fishhook/fishhook.c \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/Libraries/fishhook/fishhook.h

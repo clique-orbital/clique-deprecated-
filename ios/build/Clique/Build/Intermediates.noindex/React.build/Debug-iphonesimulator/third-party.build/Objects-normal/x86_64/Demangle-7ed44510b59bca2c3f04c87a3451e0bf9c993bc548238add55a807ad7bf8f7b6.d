@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Demangle.cpp \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Demangle.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/FBString.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CppAttributes.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Portability.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Config.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CPortability.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Traits.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/Hash.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Utility.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/ApplyTuple.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/Invoke.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Preprocessor.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/SpookyHashV1.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/SpookyHashV2.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Bits.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ConstexprMath.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Assume.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Builtins.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Exception.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/memory/Malloc.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/memory/detail/MallocImpl.h \
+  /Users/andyylam/Desktop/clique/node_modules/react-native/third-party/folly-2018.10.22.00/folly/detail/Demangle.h

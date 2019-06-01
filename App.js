@@ -10,7 +10,7 @@ import NotificationsScreen from "./src/screens/Main/NotificationsScreen";
 import SettingsScreen from "./src/screens/Main/SettingsScreen";
 import PersonalCalendar from "./src/screens/Main/PersonalCalendar";
 import AuthLoading from "./src/screens/Auth/AuthLoading";
-import Auth from "./src/screens/Auth/Auth";
+// import Auth from "./src/screens/Auth/Auth";
 
 import MyIcon from "./src/components/MyIcon";
 import IconWithBadge from "./src/components/IconWithBadge";
@@ -51,11 +51,10 @@ const AppNavigator = createBottomTabNavigator(
 const InitialNavigator = createSwitchNavigator(
   {
     AuthLoading: AuthLoading,
-    App: AppNavigator,
-    Auth: Auth
+    App: AppNavigator
   },
   {
-    initialRouteName: "Auth"
+    initialRouteName: "AuthLoading"
   }
 );
 

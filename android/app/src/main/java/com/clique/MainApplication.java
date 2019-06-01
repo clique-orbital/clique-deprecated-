@@ -3,9 +3,6 @@ package com.clique;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import io.invertase.firebase.RNFirebasePackage;
-import io.invertase.firebase.auth.RNFirebaseAuthPackage; // <-- Add this line
-
 import com.oblador.vectoricons.VectorIconsPackage;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
@@ -29,12 +26,9 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNFirebasePackage(),
             new VectorIconsPackage(),
             new SplashScreenReactPackage(),
-            new RNGestureHandlerPackage(),
-            new RNFirebaseAuthPackage() // <-- Add this line
-
+            new RNGestureHandlerPackage()
       );
     }
 
