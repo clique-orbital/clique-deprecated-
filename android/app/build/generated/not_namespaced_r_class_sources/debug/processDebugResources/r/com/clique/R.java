@@ -3535,13 +3535,21 @@ public final class R {
     public static final int common_open_on_phone=0x7f0b0050;
     public static final int common_signin_button_text=0x7f0b0051;
     public static final int common_signin_button_text_long=0x7f0b0052;
-    public static final int header_description=0x7f0b0053;
-    public static final int image_button_description=0x7f0b0054;
-    public static final int image_description=0x7f0b0055;
-    public static final int link_description=0x7f0b0056;
-    public static final int search_description=0x7f0b0057;
-    public static final int search_menu_title=0x7f0b0058;
-    public static final int status_bar_notification_info_overflow=0x7f0b0059;
+    public static final int default_web_client_id=0x7f0b0053;
+    public static final int firebase_database_url=0x7f0b0054;
+    public static final int gcm_defaultSenderId=0x7f0b0055;
+    public static final int google_api_key=0x7f0b0056;
+    public static final int google_app_id=0x7f0b0057;
+    public static final int google_crash_reporting_api_key=0x7f0b0058;
+    public static final int google_storage_bucket=0x7f0b0059;
+    public static final int header_description=0x7f0b005a;
+    public static final int image_button_description=0x7f0b005b;
+    public static final int image_description=0x7f0b005c;
+    public static final int link_description=0x7f0b005d;
+    public static final int project_id=0x7f0b005e;
+    public static final int search_description=0x7f0b005f;
+    public static final int search_menu_title=0x7f0b0060;
+    public static final int status_bar_notification_info_overflow=0x7f0b0061;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0c0000;
@@ -3929,39 +3937,39 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.clique:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.clique:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.clique:backgroundStacked}</code></td><td>Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.clique:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.clique:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
+     * <tr><td><code>{@link #ActionBar_background org.reactjs.native.example.CliqueOrbital:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit org.reactjs.native.example.CliqueOrbital:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked org.reactjs.native.example.CliqueOrbital:backgroundStacked}</code></td><td>Specifies a background drawable for a second stacked row of the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd org.reactjs.native.example.CliqueOrbital:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions org.reactjs.native.example.CliqueOrbital:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
      * are present.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.clique:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.clique:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.clique:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.clique:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft org.reactjs.native.example.CliqueOrbital:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight org.reactjs.native.example.CliqueOrbital:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart org.reactjs.native.example.CliqueOrbital:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation org.reactjs.native.example.CliqueOrbital:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
      * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.clique:customNavigationLayout}</code></td><td>Specifies a layout for custom navigation.</td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.clique:displayOptions}</code></td><td>Options affecting how the action bar is displayed.</td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.clique:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.clique:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.clique:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.clique:hideOnContentScroll}</code></td><td>Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.clique:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.clique:homeLayout}</code></td><td>Specifies a layout to use for the "home" section of the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.clique:icon}</code></td><td>Specifies the drawable used for the application icon.</td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.clique:indeterminateProgressStyle}</code></td><td>Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.clique:itemPadding}</code></td><td>Specifies padding that should be applied to the left and right sides of
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout org.reactjs.native.example.CliqueOrbital:customNavigationLayout}</code></td><td>Specifies a layout for custom navigation.</td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions org.reactjs.native.example.CliqueOrbital:displayOptions}</code></td><td>Options affecting how the action bar is displayed.</td></tr>
+     * <tr><td><code>{@link #ActionBar_divider org.reactjs.native.example.CliqueOrbital:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation org.reactjs.native.example.CliqueOrbital:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #ActionBar_height org.reactjs.native.example.CliqueOrbital:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll org.reactjs.native.example.CliqueOrbital:hideOnContentScroll}</code></td><td>Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator org.reactjs.native.example.CliqueOrbital:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout org.reactjs.native.example.CliqueOrbital:homeLayout}</code></td><td>Specifies a layout to use for the "home" section of the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_icon org.reactjs.native.example.CliqueOrbital:icon}</code></td><td>Specifies the drawable used for the application icon.</td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle org.reactjs.native.example.CliqueOrbital:indeterminateProgressStyle}</code></td><td>Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding org.reactjs.native.example.CliqueOrbital:itemPadding}</code></td><td>Specifies padding that should be applied to the left and right sides of
      * system-provided items in the bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.clique:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.clique:navigationMode}</code></td><td>The type of navigation to use.</td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.clique:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
+     * <tr><td><code>{@link #ActionBar_logo org.reactjs.native.example.CliqueOrbital:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode org.reactjs.native.example.CliqueOrbital:navigationMode}</code></td><td>The type of navigation to use.</td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme org.reactjs.native.example.CliqueOrbital:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.clique:progressBarPadding}</code></td><td>Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.clique:progressBarStyle}</code></td><td>Specifies a style resource to use for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.clique:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.clique:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.clique:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.clique:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding org.reactjs.native.example.CliqueOrbital:progressBarPadding}</code></td><td>Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle org.reactjs.native.example.CliqueOrbital:progressBarStyle}</code></td><td>Specifies a style resource to use for an embedded progress bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle org.reactjs.native.example.CliqueOrbital:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle org.reactjs.native.example.CliqueOrbital:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
+     * <tr><td><code>{@link #ActionBar_title org.reactjs.native.example.CliqueOrbital:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle org.reactjs.native.example.CliqueOrbital:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -4013,7 +4021,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:background
+     * @attr name org.reactjs.native.example.CliqueOrbital:background
      */
     public static final int ActionBar_background=0;
     /**
@@ -4029,7 +4037,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:backgroundSplit
+     * @attr name org.reactjs.native.example.CliqueOrbital:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
@@ -4045,7 +4053,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:backgroundStacked
+     * @attr name org.reactjs.native.example.CliqueOrbital:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
@@ -4060,7 +4068,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:contentInsetEnd
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
@@ -4075,7 +4083,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:contentInsetEndWithActions
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
@@ -4090,7 +4098,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:contentInsetLeft
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
@@ -4105,7 +4113,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:contentInsetRight
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
@@ -4120,7 +4128,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:contentInsetStart
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
@@ -4135,7 +4143,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:contentInsetStartWithNavigation
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
@@ -4148,7 +4156,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:customNavigationLayout
+     * @attr name org.reactjs.native.example.CliqueOrbital:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
@@ -4171,7 +4179,7 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:displayOptions
+     * @attr name org.reactjs.native.example.CliqueOrbital:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
@@ -4184,7 +4192,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:divider
+     * @attr name org.reactjs.native.example.CliqueOrbital:divider
      */
     public static final int ActionBar_divider=11;
     /**
@@ -4198,7 +4206,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:elevation
+     * @attr name org.reactjs.native.example.CliqueOrbital:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
@@ -4212,7 +4220,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:height
+     * @attr name org.reactjs.native.example.CliqueOrbital:height
      */
     public static final int ActionBar_height=13;
     /**
@@ -4223,7 +4231,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:hideOnContentScroll
+     * @attr name org.reactjs.native.example.CliqueOrbital:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
@@ -4236,7 +4244,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:homeAsUpIndicator
+     * @attr name org.reactjs.native.example.CliqueOrbital:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
@@ -4249,7 +4257,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:homeLayout
+     * @attr name org.reactjs.native.example.CliqueOrbital:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
@@ -4262,7 +4270,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:icon
+     * @attr name org.reactjs.native.example.CliqueOrbital:icon
      */
     public static final int ActionBar_icon=17;
     /**
@@ -4275,7 +4283,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:indeterminateProgressStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
@@ -4290,7 +4298,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:itemPadding
+     * @attr name org.reactjs.native.example.CliqueOrbital:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
@@ -4303,7 +4311,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:logo
+     * @attr name org.reactjs.native.example.CliqueOrbital:logo
      */
     public static final int ActionBar_logo=20;
     /**
@@ -4322,7 +4330,7 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td>The action bar will use a series of horizontal tabs for navigation.</td></tr>
      * </table>
      *
-     * @attr name com.clique:navigationMode
+     * @attr name org.reactjs.native.example.CliqueOrbital:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
@@ -4336,7 +4344,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:popupTheme
+     * @attr name org.reactjs.native.example.CliqueOrbital:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
@@ -4350,7 +4358,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:progressBarPadding
+     * @attr name org.reactjs.native.example.CliqueOrbital:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
@@ -4363,7 +4371,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:progressBarStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
@@ -4374,7 +4382,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:subtitle
+     * @attr name org.reactjs.native.example.CliqueOrbital:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
@@ -4387,7 +4395,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:subtitleTextStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
@@ -4398,7 +4406,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:title
+     * @attr name org.reactjs.native.example.CliqueOrbital:title
      */
     public static final int ActionBar_title=27;
     /**
@@ -4411,7 +4419,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:titleTextStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4493,12 +4501,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.clique:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.clique:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.clique:closeItemLayout}</code></td><td>Specifies a layout to use for the "close" item at the starting edge.</td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.clique:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.clique:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.clique:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionMode_background org.reactjs.native.example.CliqueOrbital:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit org.reactjs.native.example.CliqueOrbital:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout org.reactjs.native.example.CliqueOrbital:closeItemLayout}</code></td><td>Specifies a layout to use for the "close" item at the starting edge.</td></tr>
+     * <tr><td><code>{@link #ActionMode_height org.reactjs.native.example.CliqueOrbital:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle org.reactjs.native.example.CliqueOrbital:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle org.reactjs.native.example.CliqueOrbital:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -4521,7 +4529,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:background
+     * @attr name org.reactjs.native.example.CliqueOrbital:background
      */
     public static final int ActionMode_background=0;
     /**
@@ -4537,7 +4545,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:backgroundSplit
+     * @attr name org.reactjs.native.example.CliqueOrbital:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
@@ -4550,7 +4558,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:closeItemLayout
+     * @attr name org.reactjs.native.example.CliqueOrbital:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
@@ -4564,7 +4572,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:height
+     * @attr name org.reactjs.native.example.CliqueOrbital:height
      */
     public static final int ActionMode_height=3;
     /**
@@ -4577,7 +4585,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:subtitleTextStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
@@ -4590,7 +4598,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:titleTextStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -4600,8 +4608,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.clique:expandActivityOverflowButtonDrawable}</code></td><td>The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.clique:initialActivityCount}</code></td><td>The maximal number of items initially shown in the activity list.</td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable org.reactjs.native.example.CliqueOrbital:expandActivityOverflowButtonDrawable}</code></td><td>The drawable to show in the button for expanding the activities overflow popup.</td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount org.reactjs.native.example.CliqueOrbital:initialActivityCount}</code></td><td>The maximal number of items initially shown in the activity list.</td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -4623,7 +4631,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:expandActivityOverflowButtonDrawable
+     * @attr name org.reactjs.native.example.CliqueOrbital:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
@@ -4634,7 +4642,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:initialActivityCount
+     * @attr name org.reactjs.native.example.CliqueOrbital:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -4645,13 +4653,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.clique:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.clique:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.clique:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.clique:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.clique:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.clique:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.clique:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen org.reactjs.native.example.CliqueOrbital:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout org.reactjs.native.example.CliqueOrbital:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout org.reactjs.native.example.CliqueOrbital:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout org.reactjs.native.example.CliqueOrbital:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout org.reactjs.native.example.CliqueOrbital:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle org.reactjs.native.example.CliqueOrbital:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout org.reactjs.native.example.CliqueOrbital:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -4679,7 +4687,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4688,11 +4696,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:buttonIconDimen
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4700,11 +4708,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:buttonPanelSideLayout
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4712,11 +4720,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:listItemLayout
+     * @attr name org.reactjs.native.example.CliqueOrbital:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4724,11 +4732,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:listLayout
+     * @attr name org.reactjs.native.example.CliqueOrbital:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4736,21 +4744,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:multiChoiceItemLayout
+     * @attr name org.reactjs.native.example.CliqueOrbital:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:showTitle
+     * @attr name org.reactjs.native.example.CliqueOrbital:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4758,7 +4766,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:singleChoiceItemLayout
+     * @attr name org.reactjs.native.example.CliqueOrbital:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -4982,9 +4990,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.clique:srcCompat}</code></td><td>Sets a drawable as the content of this ImageView.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.clique:tint}</code></td><td>Tint to apply to the image source.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.clique:tintMode}</code></td><td>Blending mode used to apply the image source tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat org.reactjs.native.example.CliqueOrbital:srcCompat}</code></td><td>Sets a drawable as the content of this ImageView.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint org.reactjs.native.example.CliqueOrbital:tint}</code></td><td>Tint to apply to the image source.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode org.reactjs.native.example.CliqueOrbital:tintMode}</code></td><td>Blending mode used to apply the image source tint.</td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -5020,7 +5028,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:srcCompat
+     * @attr name org.reactjs.native.example.CliqueOrbital:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
@@ -5032,7 +5040,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:tint
+     * @attr name org.reactjs.native.example.CliqueOrbital:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
@@ -5059,7 +5067,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.clique:tintMode
+     * @attr name org.reactjs.native.example.CliqueOrbital:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -5070,9 +5078,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.clique:tickMark}</code></td><td>Drawable displayed at each progress position on a seekbar.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.clique:tickMarkTint}</code></td><td>Tint to apply to the tick mark drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.clique:tickMarkTintMode}</code></td><td>Blending mode used to apply the tick mark tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark org.reactjs.native.example.CliqueOrbital:tickMark}</code></td><td>Drawable displayed at each progress position on a seekbar.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint org.reactjs.native.example.CliqueOrbital:tickMarkTint}</code></td><td>Tint to apply to the tick mark drawable.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode org.reactjs.native.example.CliqueOrbital:tickMarkTintMode}</code></td><td>Blending mode used to apply the tick mark tint.</td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -5104,7 +5112,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:tickMark
+     * @attr name org.reactjs.native.example.CliqueOrbital:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
@@ -5116,7 +5124,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:tickMarkTint
+     * @attr name org.reactjs.native.example.CliqueOrbital:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
@@ -5143,7 +5151,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.clique:tickMarkTintMode
+     * @attr name org.reactjs.native.example.CliqueOrbital:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -5283,18 +5291,18 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.clique:autoSizeMaxTextSize}</code></td><td>The maximum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.clique:autoSizeMinTextSize}</code></td><td>The minimum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.clique:autoSizePresetSizes}</code></td><td>Resource array of dimensions to be used in conjunction with
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize org.reactjs.native.example.CliqueOrbital:autoSizeMaxTextSize}</code></td><td>The maximum text size constraint to be used when auto-sizing text.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize org.reactjs.native.example.CliqueOrbital:autoSizeMinTextSize}</code></td><td>The minimum text size constraint to be used when auto-sizing text.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes org.reactjs.native.example.CliqueOrbital:autoSizePresetSizes}</code></td><td>Resource array of dimensions to be used in conjunction with
      * <code>autoSizeTextType</code> set to <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.clique:autoSizeStepGranularity}</code></td><td>Specify the auto-size step size if <code>autoSizeTextType</code> is set to
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity org.reactjs.native.example.CliqueOrbital:autoSizeStepGranularity}</code></td><td>Specify the auto-size step size if <code>autoSizeTextType</code> is set to
      * <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.clique:autoSizeTextType}</code></td><td>Specify the type of auto-size.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.clique:firstBaselineToTopHeight}</code></td><td>Distance from the top of the TextView to the first text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.clique:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.clique:lastBaselineToBottomHeight}</code></td><td>Distance from the bottom of the TextView to the last text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.clique:lineHeight}</code></td><td>Explicit height between lines of text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.clique:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType org.reactjs.native.example.CliqueOrbital:autoSizeTextType}</code></td><td>Specify the type of auto-size.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight org.reactjs.native.example.CliqueOrbital:firstBaselineToTopHeight}</code></td><td>Distance from the top of the TextView to the first text baseline.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily org.reactjs.native.example.CliqueOrbital:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight org.reactjs.native.example.CliqueOrbital:lastBaselineToBottomHeight}</code></td><td>Distance from the bottom of the TextView to the last text baseline.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight org.reactjs.native.example.CliqueOrbital:lineHeight}</code></td><td>Explicit height between lines of text.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps org.reactjs.native.example.CliqueOrbital:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -5336,7 +5344,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:autoSizeMaxTextSize
+     * @attr name org.reactjs.native.example.CliqueOrbital:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
@@ -5350,7 +5358,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:autoSizeMinTextSize
+     * @attr name org.reactjs.native.example.CliqueOrbital:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
@@ -5365,7 +5373,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:autoSizePresetSizes
+     * @attr name org.reactjs.native.example.CliqueOrbital:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
@@ -5381,7 +5389,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:autoSizeStepGranularity
+     * @attr name org.reactjs.native.example.CliqueOrbital:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
@@ -5401,7 +5409,7 @@ public final class R {
      * container.</td></tr>
      * </table>
      *
-     * @attr name com.clique:autoSizeTextType
+     * @attr name org.reactjs.native.example.CliqueOrbital:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
@@ -5416,7 +5424,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:firstBaselineToTopHeight
+     * @attr name org.reactjs.native.example.CliqueOrbital:firstBaselineToTopHeight
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=6;
     /**
@@ -5427,7 +5435,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:fontFamily
+     * @attr name org.reactjs.native.example.CliqueOrbital:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=7;
     /**
@@ -5442,7 +5450,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:lastBaselineToBottomHeight
+     * @attr name org.reactjs.native.example.CliqueOrbital:lastBaselineToBottomHeight
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=8;
     /**
@@ -5457,7 +5465,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:lineHeight
+     * @attr name org.reactjs.native.example.CliqueOrbital:lineHeight
      */
     public static final int AppCompatTextView_lineHeight=9;
     /**
@@ -5472,7 +5480,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:textAllCaps
+     * @attr name org.reactjs.native.example.CliqueOrbital:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=10;
     /**
@@ -5484,142 +5492,142 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.clique:actionBarDivider}</code></td><td>Custom divider drawable to use for elements in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.clique:actionBarItemBackground}</code></td><td>Custom item state list drawable background for action bar items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.clique:actionBarPopupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider org.reactjs.native.example.CliqueOrbital:actionBarDivider}</code></td><td>Custom divider drawable to use for elements in the action bar.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground org.reactjs.native.example.CliqueOrbital:actionBarItemBackground}</code></td><td>Custom item state list drawable background for action bar items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme org.reactjs.native.example.CliqueOrbital:actionBarPopupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.clique:actionBarSize}</code></td><td>Size of the Action Bar, including the contextual
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize org.reactjs.native.example.CliqueOrbital:actionBarSize}</code></td><td>Size of the Action Bar, including the contextual
      * bar used to present Action Modes.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.clique:actionBarSplitStyle}</code></td><td>Reference to a style for the split Action Bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.clique:actionBarStyle}</code></td><td>Reference to a style for the Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.clique:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.clique:actionBarTabStyle}</code></td><td>Default style for tabs within an action bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.clique:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.clique:actionBarTheme}</code></td><td>Reference to a theme that should be used to inflate the
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle org.reactjs.native.example.CliqueOrbital:actionBarSplitStyle}</code></td><td>Reference to a style for the split Action Bar.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle org.reactjs.native.example.CliqueOrbital:actionBarStyle}</code></td><td>Reference to a style for the Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle org.reactjs.native.example.CliqueOrbital:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle org.reactjs.native.example.CliqueOrbital:actionBarTabStyle}</code></td><td>Default style for tabs within an action bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle org.reactjs.native.example.CliqueOrbital:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme org.reactjs.native.example.CliqueOrbital:actionBarTheme}</code></td><td>Reference to a theme that should be used to inflate the
      * action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.clique:actionBarWidgetTheme}</code></td><td>Reference to a theme that should be used to inflate widgets
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme org.reactjs.native.example.CliqueOrbital:actionBarWidgetTheme}</code></td><td>Reference to a theme that should be used to inflate widgets
      * and layouts destined for the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.clique:actionButtonStyle}</code></td><td>Default action button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.clique:actionDropDownStyle}</code></td><td>Default ActionBar dropdown style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.clique:actionMenuTextAppearance}</code></td><td>TextAppearance style that will be applied to text that
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle org.reactjs.native.example.CliqueOrbital:actionButtonStyle}</code></td><td>Default action button style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle org.reactjs.native.example.CliqueOrbital:actionDropDownStyle}</code></td><td>Default ActionBar dropdown style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance org.reactjs.native.example.CliqueOrbital:actionMenuTextAppearance}</code></td><td>TextAppearance style that will be applied to text that
      * appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.clique:actionMenuTextColor}</code></td><td>Color for text that appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.clique:actionModeBackground}</code></td><td>Background drawable to use for action mode UI</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.clique:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.clique:actionModeCloseDrawable}</code></td><td>Drawable to use for the close action mode button</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.clique:actionModeCopyDrawable}</code></td><td>Drawable to use for the Copy action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.clique:actionModeCutDrawable}</code></td><td>Drawable to use for the Cut action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.clique:actionModeFindDrawable}</code></td><td>Drawable to use for the Find action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.clique:actionModePasteDrawable}</code></td><td>Drawable to use for the Paste action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.clique:actionModePopupWindowStyle}</code></td><td>PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.clique:actionModeSelectAllDrawable}</code></td><td>Drawable to use for the Select all action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.clique:actionModeShareDrawable}</code></td><td>Drawable to use for the Share action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.clique:actionModeSplitBackground}</code></td><td>Background drawable to use for action mode UI in the lower split bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.clique:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.clique:actionModeWebSearchDrawable}</code></td><td>Drawable to use for the Web Search action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.clique:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.clique:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.clique:activityChooserViewStyle}</code></td><td>Default ActivityChooserView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.clique:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.clique:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.clique:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.clique:alertDialogTheme}</code></td><td>Theme to use for alert dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.clique:autoCompleteTextViewStyle}</code></td><td>Default AutoCompleteTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.clique:borderlessButtonStyle}</code></td><td>Style for buttons without an explicit border, often used in groups.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.clique:buttonBarButtonStyle}</code></td><td>Style for buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.clique:buttonBarNegativeButtonStyle}</code></td><td>Style for the "negative" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.clique:buttonBarNeutralButtonStyle}</code></td><td>Style for the "neutral" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.clique:buttonBarPositiveButtonStyle}</code></td><td>Style for the "positive" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.clique:buttonBarStyle}</code></td><td>Style for button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.clique:buttonStyle}</code></td><td>Normal Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.clique:buttonStyleSmall}</code></td><td>Small Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.clique:checkboxStyle}</code></td><td>Default Checkbox style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.clique:checkedTextViewStyle}</code></td><td>Default CheckedTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.clique:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.clique:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.clique:colorButtonNormal}</code></td><td>The color applied to framework buttons in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.clique:colorControlActivated}</code></td><td>The color applied to framework controls in their activated (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.clique:colorControlHighlight}</code></td><td>The color applied to framework control highlights (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.clique:colorControlNormal}</code></td><td>The color applied to framework controls in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.clique:colorError}</code></td><td>Color used for error states and things that need to be drawn to
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor org.reactjs.native.example.CliqueOrbital:actionMenuTextColor}</code></td><td>Color for text that appears within action menu items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground org.reactjs.native.example.CliqueOrbital:actionModeBackground}</code></td><td>Background drawable to use for action mode UI</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle org.reactjs.native.example.CliqueOrbital:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable org.reactjs.native.example.CliqueOrbital:actionModeCloseDrawable}</code></td><td>Drawable to use for the close action mode button</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable org.reactjs.native.example.CliqueOrbital:actionModeCopyDrawable}</code></td><td>Drawable to use for the Copy action button in Contextual Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable org.reactjs.native.example.CliqueOrbital:actionModeCutDrawable}</code></td><td>Drawable to use for the Cut action button in Contextual Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable org.reactjs.native.example.CliqueOrbital:actionModeFindDrawable}</code></td><td>Drawable to use for the Find action button in WebView selection action modes</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable org.reactjs.native.example.CliqueOrbital:actionModePasteDrawable}</code></td><td>Drawable to use for the Paste action button in Contextual Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle org.reactjs.native.example.CliqueOrbital:actionModePopupWindowStyle}</code></td><td>PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable org.reactjs.native.example.CliqueOrbital:actionModeSelectAllDrawable}</code></td><td>Drawable to use for the Select all action button in Contextual Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable org.reactjs.native.example.CliqueOrbital:actionModeShareDrawable}</code></td><td>Drawable to use for the Share action button in WebView selection action modes</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground org.reactjs.native.example.CliqueOrbital:actionModeSplitBackground}</code></td><td>Background drawable to use for action mode UI in the lower split bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle org.reactjs.native.example.CliqueOrbital:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable org.reactjs.native.example.CliqueOrbital:actionModeWebSearchDrawable}</code></td><td>Drawable to use for the Web Search action button in WebView selection action modes</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle org.reactjs.native.example.CliqueOrbital:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle org.reactjs.native.example.CliqueOrbital:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle org.reactjs.native.example.CliqueOrbital:activityChooserViewStyle}</code></td><td>Default ActivityChooserView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle org.reactjs.native.example.CliqueOrbital:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons org.reactjs.native.example.CliqueOrbital:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle org.reactjs.native.example.CliqueOrbital:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme org.reactjs.native.example.CliqueOrbital:alertDialogTheme}</code></td><td>Theme to use for alert dialogs spawned from this theme.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle org.reactjs.native.example.CliqueOrbital:autoCompleteTextViewStyle}</code></td><td>Default AutoCompleteTextView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle org.reactjs.native.example.CliqueOrbital:borderlessButtonStyle}</code></td><td>Style for buttons without an explicit border, often used in groups.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle org.reactjs.native.example.CliqueOrbital:buttonBarButtonStyle}</code></td><td>Style for buttons within button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle org.reactjs.native.example.CliqueOrbital:buttonBarNegativeButtonStyle}</code></td><td>Style for the "negative" buttons within button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle org.reactjs.native.example.CliqueOrbital:buttonBarNeutralButtonStyle}</code></td><td>Style for the "neutral" buttons within button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle org.reactjs.native.example.CliqueOrbital:buttonBarPositiveButtonStyle}</code></td><td>Style for the "positive" buttons within button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle org.reactjs.native.example.CliqueOrbital:buttonBarStyle}</code></td><td>Style for button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle org.reactjs.native.example.CliqueOrbital:buttonStyle}</code></td><td>Normal Button style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall org.reactjs.native.example.CliqueOrbital:buttonStyleSmall}</code></td><td>Small Button style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle org.reactjs.native.example.CliqueOrbital:checkboxStyle}</code></td><td>Default Checkbox style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle org.reactjs.native.example.CliqueOrbital:checkedTextViewStyle}</code></td><td>Default CheckedTextView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent org.reactjs.native.example.CliqueOrbital:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating org.reactjs.native.example.CliqueOrbital:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal org.reactjs.native.example.CliqueOrbital:colorButtonNormal}</code></td><td>The color applied to framework buttons in their normal state.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated org.reactjs.native.example.CliqueOrbital:colorControlActivated}</code></td><td>The color applied to framework controls in their activated (ex.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight org.reactjs.native.example.CliqueOrbital:colorControlHighlight}</code></td><td>The color applied to framework control highlights (ex.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal org.reactjs.native.example.CliqueOrbital:colorControlNormal}</code></td><td>The color applied to framework controls in their normal state.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError org.reactjs.native.example.CliqueOrbital:colorError}</code></td><td>Color used for error states and things that need to be drawn to
      * the user's attention.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.clique:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.clique:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.clique:colorSwitchThumbNormal}</code></td><td>The color applied to framework switch thumbs in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.clique:controlBackground}</code></td><td>The background used by framework controls.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.clique:dialogCornerRadius}</code></td><td>Preferred corner radius of dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.clique:dialogPreferredPadding}</code></td><td>Preferred padding for dialog content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.clique:dialogTheme}</code></td><td>Theme to use for dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.clique:dividerHorizontal}</code></td><td>A drawable that may be used as a horizontal divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.clique:dividerVertical}</code></td><td>A drawable that may be used as a vertical divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.clique:dropDownListViewStyle}</code></td><td>ListPopupWindow compatibility</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.clique:dropdownListPreferredItemHeight}</code></td><td>The preferred item height for dropdown lists.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.clique:editTextBackground}</code></td><td>EditText background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.clique:editTextColor}</code></td><td>EditText text foreground color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.clique:editTextStyle}</code></td><td>Default EditText style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.clique:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.clique:imageButtonStyle}</code></td><td>ImageButton background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.clique:listChoiceBackgroundIndicator}</code></td><td>Drawable used as a background for selected list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.clique:listDividerAlertDialog}</code></td><td>The list divider used in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.clique:listMenuViewStyle}</code></td><td>Default menu-style ListView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.clique:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.clique:listPreferredItemHeight}</code></td><td>The preferred list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.clique:listPreferredItemHeightLarge}</code></td><td>A larger, more robust list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.clique:listPreferredItemHeightSmall}</code></td><td>A smaller, sleeker list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.clique:listPreferredItemPaddingLeft}</code></td><td>The preferred padding along the left edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.clique:listPreferredItemPaddingRight}</code></td><td>The preferred padding along the right edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.clique:panelBackground}</code></td><td>The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.clique:panelMenuListTheme}</code></td><td>Default Panel Menu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.clique:panelMenuListWidth}</code></td><td>Default Panel Menu width.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.clique:popupMenuStyle}</code></td><td>Default PopupMenu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.clique:popupWindowStyle}</code></td><td>Default PopupWindow style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.clique:radioButtonStyle}</code></td><td>Default RadioButton style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.clique:ratingBarStyle}</code></td><td>Default RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.clique:ratingBarStyleIndicator}</code></td><td>Indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.clique:ratingBarStyleSmall}</code></td><td>Small indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.clique:searchViewStyle}</code></td><td>Style for the search query widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.clique:seekBarStyle}</code></td><td>Default SeekBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.clique:selectableItemBackground}</code></td><td>A style that may be applied to buttons or other selectable items
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary org.reactjs.native.example.CliqueOrbital:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark org.reactjs.native.example.CliqueOrbital:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal org.reactjs.native.example.CliqueOrbital:colorSwitchThumbNormal}</code></td><td>The color applied to framework switch thumbs in their normal state.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground org.reactjs.native.example.CliqueOrbital:controlBackground}</code></td><td>The background used by framework controls.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius org.reactjs.native.example.CliqueOrbital:dialogCornerRadius}</code></td><td>Preferred corner radius of dialogs.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding org.reactjs.native.example.CliqueOrbital:dialogPreferredPadding}</code></td><td>Preferred padding for dialog content.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme org.reactjs.native.example.CliqueOrbital:dialogTheme}</code></td><td>Theme to use for dialogs spawned from this theme.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal org.reactjs.native.example.CliqueOrbital:dividerHorizontal}</code></td><td>A drawable that may be used as a horizontal divider between visual elements.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical org.reactjs.native.example.CliqueOrbital:dividerVertical}</code></td><td>A drawable that may be used as a vertical divider between visual elements.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle org.reactjs.native.example.CliqueOrbital:dropDownListViewStyle}</code></td><td>ListPopupWindow compatibility</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight org.reactjs.native.example.CliqueOrbital:dropdownListPreferredItemHeight}</code></td><td>The preferred item height for dropdown lists.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground org.reactjs.native.example.CliqueOrbital:editTextBackground}</code></td><td>EditText background drawable.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor org.reactjs.native.example.CliqueOrbital:editTextColor}</code></td><td>EditText text foreground color.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle org.reactjs.native.example.CliqueOrbital:editTextStyle}</code></td><td>Default EditText style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator org.reactjs.native.example.CliqueOrbital:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle org.reactjs.native.example.CliqueOrbital:imageButtonStyle}</code></td><td>ImageButton background drawable.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator org.reactjs.native.example.CliqueOrbital:listChoiceBackgroundIndicator}</code></td><td>Drawable used as a background for selected list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog org.reactjs.native.example.CliqueOrbital:listDividerAlertDialog}</code></td><td>The list divider used in alert dialogs.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle org.reactjs.native.example.CliqueOrbital:listMenuViewStyle}</code></td><td>Default menu-style ListView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle org.reactjs.native.example.CliqueOrbital:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight org.reactjs.native.example.CliqueOrbital:listPreferredItemHeight}</code></td><td>The preferred list item height.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge org.reactjs.native.example.CliqueOrbital:listPreferredItemHeightLarge}</code></td><td>A larger, more robust list item height.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall org.reactjs.native.example.CliqueOrbital:listPreferredItemHeightSmall}</code></td><td>A smaller, sleeker list item height.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft org.reactjs.native.example.CliqueOrbital:listPreferredItemPaddingLeft}</code></td><td>The preferred padding along the left edge of list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight org.reactjs.native.example.CliqueOrbital:listPreferredItemPaddingRight}</code></td><td>The preferred padding along the right edge of list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground org.reactjs.native.example.CliqueOrbital:panelBackground}</code></td><td>The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme org.reactjs.native.example.CliqueOrbital:panelMenuListTheme}</code></td><td>Default Panel Menu style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth org.reactjs.native.example.CliqueOrbital:panelMenuListWidth}</code></td><td>Default Panel Menu width.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle org.reactjs.native.example.CliqueOrbital:popupMenuStyle}</code></td><td>Default PopupMenu style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle org.reactjs.native.example.CliqueOrbital:popupWindowStyle}</code></td><td>Default PopupWindow style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle org.reactjs.native.example.CliqueOrbital:radioButtonStyle}</code></td><td>Default RadioButton style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle org.reactjs.native.example.CliqueOrbital:ratingBarStyle}</code></td><td>Default RatingBar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator org.reactjs.native.example.CliqueOrbital:ratingBarStyleIndicator}</code></td><td>Indicator RatingBar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall org.reactjs.native.example.CliqueOrbital:ratingBarStyleSmall}</code></td><td>Small indicator RatingBar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle org.reactjs.native.example.CliqueOrbital:searchViewStyle}</code></td><td>Style for the search query widget.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle org.reactjs.native.example.CliqueOrbital:seekBarStyle}</code></td><td>Default SeekBar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground org.reactjs.native.example.CliqueOrbital:selectableItemBackground}</code></td><td>A style that may be applied to buttons or other selectable items
      * that should react to pressed and focus states, but that do not
      * have a clear visual border along the edges.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.clique:selectableItemBackgroundBorderless}</code></td><td>Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.clique:spinnerDropDownItemStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.clique:spinnerStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.clique:switchStyle}</code></td><td>Default style for the Switch widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.clique:textAppearanceLargePopupMenu}</code></td><td>Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.clique:textAppearanceListItem}</code></td><td>The preferred TextAppearance for the primary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.clique:textAppearanceListItemSecondary}</code></td><td>The preferred TextAppearance for the secondary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.clique:textAppearanceListItemSmall}</code></td><td>The preferred TextAppearance for the primary text of small list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.clique:textAppearancePopupMenuHeader}</code></td><td>Text color, typeface, size, and style for header text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.clique:textAppearanceSearchResultSubtitle}</code></td><td>Text color, typeface, size, and style for system search result subtitle.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.clique:textAppearanceSearchResultTitle}</code></td><td>Text color, typeface, size, and style for system search result title.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.clique:textAppearanceSmallPopupMenu}</code></td><td>Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.clique:textColorAlertDialogListItem}</code></td><td>Color of list item text in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.clique:textColorSearchUrl}</code></td><td>Text color for urls in search suggestions, used by things like global search</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.clique:toolbarNavigationButtonStyle}</code></td><td>Default Toolar NavigationButtonStyle</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.clique:toolbarStyle}</code></td><td>Default Toolbar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.clique:tooltipForegroundColor}</code></td><td>Foreground color to use for tooltips</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.clique:tooltipFrameBackground}</code></td><td>Background to use for tooltips</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.clique:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.clique:windowActionBar}</code></td><td>Flag indicating whether this window should have an Action Bar
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless org.reactjs.native.example.CliqueOrbital:selectableItemBackgroundBorderless}</code></td><td>Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle org.reactjs.native.example.CliqueOrbital:spinnerDropDownItemStyle}</code></td><td>Default Spinner style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle org.reactjs.native.example.CliqueOrbital:spinnerStyle}</code></td><td>Default Spinner style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle org.reactjs.native.example.CliqueOrbital:switchStyle}</code></td><td>Default style for the Switch widget.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu org.reactjs.native.example.CliqueOrbital:textAppearanceLargePopupMenu}</code></td><td>Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem org.reactjs.native.example.CliqueOrbital:textAppearanceListItem}</code></td><td>The preferred TextAppearance for the primary text of list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary org.reactjs.native.example.CliqueOrbital:textAppearanceListItemSecondary}</code></td><td>The preferred TextAppearance for the secondary text of list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall org.reactjs.native.example.CliqueOrbital:textAppearanceListItemSmall}</code></td><td>The preferred TextAppearance for the primary text of small list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader org.reactjs.native.example.CliqueOrbital:textAppearancePopupMenuHeader}</code></td><td>Text color, typeface, size, and style for header text inside of a popup menu.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle org.reactjs.native.example.CliqueOrbital:textAppearanceSearchResultSubtitle}</code></td><td>Text color, typeface, size, and style for system search result subtitle.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle org.reactjs.native.example.CliqueOrbital:textAppearanceSearchResultTitle}</code></td><td>Text color, typeface, size, and style for system search result title.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu org.reactjs.native.example.CliqueOrbital:textAppearanceSmallPopupMenu}</code></td><td>Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem org.reactjs.native.example.CliqueOrbital:textColorAlertDialogListItem}</code></td><td>Color of list item text in alert dialogs.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl org.reactjs.native.example.CliqueOrbital:textColorSearchUrl}</code></td><td>Text color for urls in search suggestions, used by things like global search</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle org.reactjs.native.example.CliqueOrbital:toolbarNavigationButtonStyle}</code></td><td>Default Toolar NavigationButtonStyle</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle org.reactjs.native.example.CliqueOrbital:toolbarStyle}</code></td><td>Default Toolbar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor org.reactjs.native.example.CliqueOrbital:tooltipForegroundColor}</code></td><td>Foreground color to use for tooltips</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground org.reactjs.native.example.CliqueOrbital:tooltipFrameBackground}</code></td><td>Background to use for tooltips</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass org.reactjs.native.example.CliqueOrbital:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar org.reactjs.native.example.CliqueOrbital:windowActionBar}</code></td><td>Flag indicating whether this window should have an Action Bar
      * in place of the usual title bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.clique:windowActionBarOverlay}</code></td><td>Flag indicating whether this window's Action Bar should overlay
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay org.reactjs.native.example.CliqueOrbital:windowActionBarOverlay}</code></td><td>Flag indicating whether this window's Action Bar should overlay
      * application content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.clique:windowActionModeOverlay}</code></td><td>Flag indicating whether action modes should overlay window content
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay org.reactjs.native.example.CliqueOrbital:windowActionModeOverlay}</code></td><td>Flag indicating whether action modes should overlay window content
      * when there is not reserved space for their UI (such as an Action Bar).</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.clique:windowFixedHeightMajor}</code></td><td>A fixed height for the window along the major axis of the screen,
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor org.reactjs.native.example.CliqueOrbital:windowFixedHeightMajor}</code></td><td>A fixed height for the window along the major axis of the screen,
      * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.clique:windowFixedHeightMinor}</code></td><td>A fixed height for the window along the minor axis of the screen,
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor org.reactjs.native.example.CliqueOrbital:windowFixedHeightMinor}</code></td><td>A fixed height for the window along the minor axis of the screen,
      * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.clique:windowFixedWidthMajor}</code></td><td>A fixed width for the window along the major axis of the screen,
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor org.reactjs.native.example.CliqueOrbital:windowFixedWidthMajor}</code></td><td>A fixed width for the window along the major axis of the screen,
      * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.clique:windowFixedWidthMinor}</code></td><td>A fixed width for the window along the minor axis of the screen,
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor org.reactjs.native.example.CliqueOrbital:windowFixedWidthMinor}</code></td><td>A fixed width for the window along the minor axis of the screen,
      * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.clique:windowMinWidthMajor}</code></td><td>The minimum width the window is allowed to be, along the major
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor org.reactjs.native.example.CliqueOrbital:windowMinWidthMajor}</code></td><td>The minimum width the window is allowed to be, along the major
      * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.clique:windowMinWidthMinor}</code></td><td>The minimum width the window is allowed to be, along the minor
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor org.reactjs.native.example.CliqueOrbital:windowMinWidthMinor}</code></td><td>The minimum width the window is allowed to be, along the minor
      * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.clique:windowNoTitle}</code></td><td>Flag indicating whether there should be no title on this window.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle org.reactjs.native.example.CliqueOrbital:windowNoTitle}</code></td><td>Flag indicating whether there should be no title on this window.</td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -5808,7 +5816,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionBarDivider
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
@@ -5821,7 +5829,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionBarItemBackground
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
@@ -5835,7 +5843,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionBarPopupTheme
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
@@ -5858,7 +5866,7 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:actionBarSize
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
@@ -5874,7 +5882,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionBarSplitStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
@@ -5887,11 +5895,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionBarStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5899,7 +5907,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionBarTabBarStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
@@ -5912,11 +5920,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionBarTabStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5924,7 +5932,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionBarTabTextStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
@@ -5939,7 +5947,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionBarTheme
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
@@ -5958,7 +5966,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionBarWidgetTheme
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
@@ -5971,7 +5979,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionButtonStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
@@ -5984,7 +5992,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionDropDownStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
@@ -5998,7 +6006,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionMenuTextAppearance
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
@@ -6014,7 +6022,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:actionMenuTextColor
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
@@ -6027,11 +6035,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModeBackground
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6039,7 +6047,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModeCloseButtonStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
@@ -6052,7 +6060,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModeCloseDrawable
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
@@ -6065,7 +6073,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModeCopyDrawable
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
@@ -6078,7 +6086,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModeCutDrawable
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
@@ -6091,7 +6099,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModeFindDrawable
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
@@ -6104,7 +6112,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModePasteDrawable
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
@@ -6117,7 +6125,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModePopupWindowStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
@@ -6130,7 +6138,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModeSelectAllDrawable
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
@@ -6143,7 +6151,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModeShareDrawable
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
@@ -6156,11 +6164,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModeSplitBackground
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6168,7 +6176,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModeStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
@@ -6181,11 +6189,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionModeWebSearchDrawable
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6193,11 +6201,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionOverflowButtonStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6205,7 +6213,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionOverflowMenuStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
@@ -6218,11 +6226,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:activityChooserViewStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6230,21 +6238,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:alertDialogButtonGroupStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:alertDialogCenterButtons
+     * @attr name org.reactjs.native.example.CliqueOrbital:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6252,7 +6260,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:alertDialogStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
@@ -6265,7 +6273,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:alertDialogTheme
+     * @attr name org.reactjs.native.example.CliqueOrbital:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
@@ -6278,7 +6286,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:autoCompleteTextViewStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
@@ -6291,7 +6299,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:borderlessButtonStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
@@ -6304,7 +6312,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:buttonBarButtonStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
@@ -6317,7 +6325,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:buttonBarNegativeButtonStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
@@ -6330,7 +6338,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:buttonBarNeutralButtonStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
@@ -6343,7 +6351,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:buttonBarPositiveButtonStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
@@ -6356,7 +6364,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:buttonBarStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
@@ -6369,7 +6377,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:buttonStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
@@ -6382,7 +6390,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:buttonStyleSmall
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
@@ -6395,7 +6403,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:checkboxStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
@@ -6408,7 +6416,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:checkedTextViewStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
@@ -6421,7 +6429,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:colorAccent
+     * @attr name org.reactjs.native.example.CliqueOrbital:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
@@ -6433,7 +6441,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:colorBackgroundFloating
+     * @attr name org.reactjs.native.example.CliqueOrbital:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
@@ -6445,7 +6453,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:colorButtonNormal
+     * @attr name org.reactjs.native.example.CliqueOrbital:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
@@ -6457,7 +6465,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:colorControlActivated
+     * @attr name org.reactjs.native.example.CliqueOrbital:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
@@ -6469,7 +6477,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:colorControlHighlight
+     * @attr name org.reactjs.native.example.CliqueOrbital:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
@@ -6481,7 +6489,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:colorControlNormal
+     * @attr name org.reactjs.native.example.CliqueOrbital:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
@@ -6498,7 +6506,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:colorError
+     * @attr name org.reactjs.native.example.CliqueOrbital:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
@@ -6511,7 +6519,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:colorPrimary
+     * @attr name org.reactjs.native.example.CliqueOrbital:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
@@ -6524,7 +6532,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:colorPrimaryDark
+     * @attr name org.reactjs.native.example.CliqueOrbital:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
@@ -6536,7 +6544,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:colorSwitchThumbNormal
+     * @attr name org.reactjs.native.example.CliqueOrbital:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
@@ -6549,7 +6557,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:controlBackground
+     * @attr name org.reactjs.native.example.CliqueOrbital:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
@@ -6563,7 +6571,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:dialogCornerRadius
+     * @attr name org.reactjs.native.example.CliqueOrbital:dialogCornerRadius
      */
     public static final int AppCompatTheme_dialogCornerRadius=59;
     /**
@@ -6577,7 +6585,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:dialogPreferredPadding
+     * @attr name org.reactjs.native.example.CliqueOrbital:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=60;
     /**
@@ -6590,7 +6598,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:dialogTheme
+     * @attr name org.reactjs.native.example.CliqueOrbital:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=61;
     /**
@@ -6603,7 +6611,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:dividerHorizontal
+     * @attr name org.reactjs.native.example.CliqueOrbital:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=62;
     /**
@@ -6616,7 +6624,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:dividerVertical
+     * @attr name org.reactjs.native.example.CliqueOrbital:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=63;
     /**
@@ -6629,7 +6637,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:dropDownListViewStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=64;
     /**
@@ -6643,7 +6651,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:dropdownListPreferredItemHeight
+     * @attr name org.reactjs.native.example.CliqueOrbital:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
     /**
@@ -6656,7 +6664,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:editTextBackground
+     * @attr name org.reactjs.native.example.CliqueOrbital:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=66;
     /**
@@ -6672,7 +6680,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:editTextColor
+     * @attr name org.reactjs.native.example.CliqueOrbital:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=67;
     /**
@@ -6685,7 +6693,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:editTextStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=68;
     /**
@@ -6698,7 +6706,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:homeAsUpIndicator
+     * @attr name org.reactjs.native.example.CliqueOrbital:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=69;
     /**
@@ -6711,7 +6719,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:imageButtonStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=70;
     /**
@@ -6724,7 +6732,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:listChoiceBackgroundIndicator
+     * @attr name org.reactjs.native.example.CliqueOrbital:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
     /**
@@ -6737,7 +6745,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:listDividerAlertDialog
+     * @attr name org.reactjs.native.example.CliqueOrbital:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=72;
     /**
@@ -6750,11 +6758,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:listMenuViewStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6762,7 +6770,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:listPopupWindowStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=74;
     /**
@@ -6776,7 +6784,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:listPreferredItemHeight
+     * @attr name org.reactjs.native.example.CliqueOrbital:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=75;
     /**
@@ -6790,7 +6798,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:listPreferredItemHeightLarge
+     * @attr name org.reactjs.native.example.CliqueOrbital:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=76;
     /**
@@ -6804,7 +6812,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:listPreferredItemHeightSmall
+     * @attr name org.reactjs.native.example.CliqueOrbital:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=77;
     /**
@@ -6818,7 +6826,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:listPreferredItemPaddingLeft
+     * @attr name org.reactjs.native.example.CliqueOrbital:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=78;
     /**
@@ -6832,7 +6840,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:listPreferredItemPaddingRight
+     * @attr name org.reactjs.native.example.CliqueOrbital:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=79;
     /**
@@ -6845,7 +6853,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:panelBackground
+     * @attr name org.reactjs.native.example.CliqueOrbital:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=80;
     /**
@@ -6858,7 +6866,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:panelMenuListTheme
+     * @attr name org.reactjs.native.example.CliqueOrbital:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=81;
     /**
@@ -6872,7 +6880,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:panelMenuListWidth
+     * @attr name org.reactjs.native.example.CliqueOrbital:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=82;
     /**
@@ -6885,7 +6893,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:popupMenuStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=83;
     /**
@@ -6898,7 +6906,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:popupWindowStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=84;
     /**
@@ -6911,7 +6919,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:radioButtonStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=85;
     /**
@@ -6924,7 +6932,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:ratingBarStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=86;
     /**
@@ -6937,7 +6945,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:ratingBarStyleIndicator
+     * @attr name org.reactjs.native.example.CliqueOrbital:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=87;
     /**
@@ -6950,7 +6958,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:ratingBarStyleSmall
+     * @attr name org.reactjs.native.example.CliqueOrbital:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=88;
     /**
@@ -6963,7 +6971,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:searchViewStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=89;
     /**
@@ -6976,7 +6984,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:seekBarStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=90;
     /**
@@ -6991,7 +6999,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:selectableItemBackground
+     * @attr name org.reactjs.native.example.CliqueOrbital:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=91;
     /**
@@ -7004,7 +7012,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:selectableItemBackgroundBorderless
+     * @attr name org.reactjs.native.example.CliqueOrbital:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=92;
     /**
@@ -7017,7 +7025,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:spinnerDropDownItemStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=93;
     /**
@@ -7030,7 +7038,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:spinnerStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=94;
     /**
@@ -7043,7 +7051,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:switchStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=95;
     /**
@@ -7056,7 +7064,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:textAppearanceLargePopupMenu
+     * @attr name org.reactjs.native.example.CliqueOrbital:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=96;
     /**
@@ -7069,7 +7077,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:textAppearanceListItem
+     * @attr name org.reactjs.native.example.CliqueOrbital:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=97;
     /**
@@ -7082,7 +7090,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:textAppearanceListItemSecondary
+     * @attr name org.reactjs.native.example.CliqueOrbital:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=98;
     /**
@@ -7095,7 +7103,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:textAppearanceListItemSmall
+     * @attr name org.reactjs.native.example.CliqueOrbital:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=99;
     /**
@@ -7108,7 +7116,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:textAppearancePopupMenuHeader
+     * @attr name org.reactjs.native.example.CliqueOrbital:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=100;
     /**
@@ -7121,7 +7129,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:textAppearanceSearchResultSubtitle
+     * @attr name org.reactjs.native.example.CliqueOrbital:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=101;
     /**
@@ -7134,7 +7142,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:textAppearanceSearchResultTitle
+     * @attr name org.reactjs.native.example.CliqueOrbital:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=102;
     /**
@@ -7147,7 +7155,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:textAppearanceSmallPopupMenu
+     * @attr name org.reactjs.native.example.CliqueOrbital:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=103;
     /**
@@ -7163,7 +7171,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:textColorAlertDialogListItem
+     * @attr name org.reactjs.native.example.CliqueOrbital:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=104;
     /**
@@ -7179,7 +7187,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:textColorSearchUrl
+     * @attr name org.reactjs.native.example.CliqueOrbital:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=105;
     /**
@@ -7192,7 +7200,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:toolbarNavigationButtonStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=106;
     /**
@@ -7205,7 +7213,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:toolbarStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=107;
     /**
@@ -7221,7 +7229,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:tooltipForegroundColor
+     * @attr name org.reactjs.native.example.CliqueOrbital:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=108;
     /**
@@ -7234,17 +7242,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:tooltipFrameBackground
+     * @attr name org.reactjs.native.example.CliqueOrbital:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=109;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:viewInflaterClass
+     * @attr name org.reactjs.native.example.CliqueOrbital:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=110;
     /**
@@ -7256,7 +7264,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:windowActionBar
+     * @attr name org.reactjs.native.example.CliqueOrbital:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=111;
     /**
@@ -7269,7 +7277,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:windowActionBarOverlay
+     * @attr name org.reactjs.native.example.CliqueOrbital:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=112;
     /**
@@ -7281,7 +7289,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:windowActionModeOverlay
+     * @attr name org.reactjs.native.example.CliqueOrbital:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=113;
     /**
@@ -7301,7 +7309,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.clique:windowFixedHeightMajor
+     * @attr name org.reactjs.native.example.CliqueOrbital:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=114;
     /**
@@ -7321,7 +7329,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.clique:windowFixedHeightMinor
+     * @attr name org.reactjs.native.example.CliqueOrbital:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=115;
     /**
@@ -7341,7 +7349,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.clique:windowFixedWidthMajor
+     * @attr name org.reactjs.native.example.CliqueOrbital:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=116;
     /**
@@ -7361,7 +7369,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.clique:windowFixedWidthMinor
+     * @attr name org.reactjs.native.example.CliqueOrbital:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=117;
     /**
@@ -7382,7 +7390,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.clique:windowMinWidthMajor
+     * @attr name org.reactjs.native.example.CliqueOrbital:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=118;
     /**
@@ -7403,7 +7411,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.clique:windowMinWidthMinor
+     * @attr name org.reactjs.native.example.CliqueOrbital:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=119;
     /**
@@ -7414,7 +7422,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:windowNoTitle
+     * @attr name org.reactjs.native.example.CliqueOrbital:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=120;
     /**
@@ -7424,7 +7432,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.clique:allowStacking}</code></td><td>Whether to automatically stack the buttons when there is not
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking org.reactjs.native.example.CliqueOrbital:allowStacking}</code></td><td>Whether to automatically stack the buttons when there is not
      * enough space to lay them out side-by-side.</td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
@@ -7441,7 +7449,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:allowStacking
+     * @attr name org.reactjs.native.example.CliqueOrbital:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -7453,7 +7461,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.clique:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha org.reactjs.native.example.CliqueOrbital:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -7490,7 +7498,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.clique:alpha
+     * @attr name org.reactjs.native.example.CliqueOrbital:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -7501,8 +7509,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.clique:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.clique:buttonTintMode}</code></td><td>Blending mode used to apply the button tint.</td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint org.reactjs.native.example.CliqueOrbital:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode org.reactjs.native.example.CliqueOrbital:buttonTintMode}</code></td><td>Blending mode used to apply the button tint.</td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -7532,7 +7540,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:buttonTint
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
@@ -7559,7 +7567,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.clique:buttonTintMode
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -7569,9 +7577,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.clique:keylines}</code></td><td>A reference to an array of integers representing the
+     * <tr><td><code>{@link #CoordinatorLayout_keylines org.reactjs.native.example.CliqueOrbital:keylines}</code></td><td>A reference to an array of integers representing the
      * locations of horizontal keylines in dp from the starting edge.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.clique:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground org.reactjs.native.example.CliqueOrbital:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -7593,7 +7601,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:keylines
+     * @attr name org.reactjs.native.example.CliqueOrbital:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
@@ -7609,7 +7617,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:statusBarBackground
+     * @attr name org.reactjs.native.example.CliqueOrbital:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -7620,15 +7628,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.clique:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.clique:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor org.reactjs.native.example.CliqueOrbital:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity org.reactjs.native.example.CliqueOrbital:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
      * within its parent's bounds.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.clique:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior org.reactjs.native.example.CliqueOrbital:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
      * for this child view.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.clique:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.clique:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges org.reactjs.native.example.CliqueOrbital:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge org.reactjs.native.example.CliqueOrbital:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
      * dodge it.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.clique:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline org.reactjs.native.example.CliqueOrbital:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -7681,7 +7689,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:layout_anchor
+     * @attr name org.reactjs.native.example.CliqueOrbital:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
@@ -7718,7 +7726,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
      * </table>
      *
-     * @attr name com.clique:layout_anchorGravity
+     * @attr name org.reactjs.native.example.CliqueOrbital:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
@@ -7730,7 +7738,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:layout_behavior
+     * @attr name org.reactjs.native.example.CliqueOrbital:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
@@ -7754,7 +7762,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
      * </table>
      *
-     * @attr name com.clique:layout_dodgeInsetEdges
+     * @attr name org.reactjs.native.example.CliqueOrbital:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
@@ -7778,7 +7786,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
      * </table>
      *
-     * @attr name com.clique:layout_insetEdge
+     * @attr name org.reactjs.native.example.CliqueOrbital:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
@@ -7790,7 +7798,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.clique:layout_keyline
+     * @attr name org.reactjs.native.example.CliqueOrbital:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -7800,14 +7808,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.clique:arrowHeadLength}</code></td><td>The length of the arrow head when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.clique:arrowShaftLength}</code></td><td>The length of the shaft when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.clique:barLength}</code></td><td>The length of the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.clique:color}</code></td><td>The drawing color for the bars</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.clique:drawableSize}</code></td><td>The total size of the drawable</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.clique:gapBetweenBars}</code></td><td>The max gap between the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.clique:spinBars}</code></td><td>Whether bars should rotate or not during transition</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.clique:thickness}</code></td><td>The thickness (stroke size) for the bar paint</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength org.reactjs.native.example.CliqueOrbital:arrowHeadLength}</code></td><td>The length of the arrow head when formed to make an arrow</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength org.reactjs.native.example.CliqueOrbital:arrowShaftLength}</code></td><td>The length of the shaft when formed to make an arrow</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength org.reactjs.native.example.CliqueOrbital:barLength}</code></td><td>The length of the bars when they are parallel to each other</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color org.reactjs.native.example.CliqueOrbital:color}</code></td><td>The drawing color for the bars</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize org.reactjs.native.example.CliqueOrbital:drawableSize}</code></td><td>The total size of the drawable</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars org.reactjs.native.example.CliqueOrbital:gapBetweenBars}</code></td><td>The max gap between the bars when they are parallel to each other</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars org.reactjs.native.example.CliqueOrbital:spinBars}</code></td><td>Whether bars should rotate or not during transition</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness org.reactjs.native.example.CliqueOrbital:thickness}</code></td><td>The thickness (stroke size) for the bar paint</td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -7833,7 +7841,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:arrowHeadLength
+     * @attr name org.reactjs.native.example.CliqueOrbital:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
@@ -7847,7 +7855,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:arrowShaftLength
+     * @attr name org.reactjs.native.example.CliqueOrbital:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
@@ -7861,7 +7869,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:barLength
+     * @attr name org.reactjs.native.example.CliqueOrbital:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
@@ -7873,7 +7881,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:color
+     * @attr name org.reactjs.native.example.CliqueOrbital:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
@@ -7887,7 +7895,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:drawableSize
+     * @attr name org.reactjs.native.example.CliqueOrbital:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
@@ -7901,7 +7909,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:gapBetweenBars
+     * @attr name org.reactjs.native.example.CliqueOrbital:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
@@ -7912,7 +7920,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:spinBars
+     * @attr name org.reactjs.native.example.CliqueOrbital:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
@@ -7926,7 +7934,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:thickness
+     * @attr name org.reactjs.native.example.CliqueOrbital:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -7936,12 +7944,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.clique:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.clique:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.clique:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.clique:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.clique:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.clique:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority org.reactjs.native.example.CliqueOrbital:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts org.reactjs.native.example.CliqueOrbital:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy org.reactjs.native.example.CliqueOrbital:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout org.reactjs.native.example.CliqueOrbital:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage org.reactjs.native.example.CliqueOrbital:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery org.reactjs.native.example.CliqueOrbital:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -7962,7 +7970,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:fontProviderAuthority
+     * @attr name org.reactjs.native.example.CliqueOrbital:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
@@ -7979,7 +7987,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:fontProviderCerts
+     * @attr name org.reactjs.native.example.CliqueOrbital:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
@@ -8011,7 +8019,7 @@ public final class R {
      * default typeface will be used instead.</td></tr>
      * </table>
      *
-     * @attr name com.clique:fontProviderFetchStrategy
+     * @attr name org.reactjs.native.example.CliqueOrbital:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
@@ -8030,7 +8038,7 @@ public final class R {
      * timeout and wait until a reply is received from the font provider.</td></tr>
      * </table>
      *
-     * @attr name com.clique:fontProviderFetchTimeout
+     * @attr name org.reactjs.native.example.CliqueOrbital:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
@@ -8042,7 +8050,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:fontProviderPackage
+     * @attr name org.reactjs.native.example.CliqueOrbital:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
@@ -8054,7 +8062,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:fontProviderQuery
+     * @attr name org.reactjs.native.example.CliqueOrbital:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -8069,11 +8077,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.clique:font}</code></td><td>The reference to the font file to be used.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.clique:fontStyle}</code></td><td>The style of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.clique:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.clique:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.clique:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font org.reactjs.native.example.CliqueOrbital:font}</code></td><td>The reference to the font file to be used.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle org.reactjs.native.example.CliqueOrbital:fontStyle}</code></td><td>The style of the given font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings org.reactjs.native.example.CliqueOrbital:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight org.reactjs.native.example.CliqueOrbital:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex org.reactjs.native.example.CliqueOrbital:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -8160,7 +8168,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:font
+     * @attr name org.reactjs.native.example.CliqueOrbital:font
      */
     public static final int FontFamilyFont_font=5;
     /**
@@ -8180,7 +8188,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:fontStyle
+     * @attr name org.reactjs.native.example.CliqueOrbital:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
@@ -8194,7 +8202,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:fontVariationSettings
+     * @attr name org.reactjs.native.example.CliqueOrbital:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
@@ -8208,7 +8216,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.clique:fontWeight
+     * @attr name org.reactjs.native.example.CliqueOrbital:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
@@ -8219,7 +8227,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.clique:ttcIndex
+     * @attr name org.reactjs.native.example.CliqueOrbital:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -8229,35 +8237,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_actualImageScaleType com.clique:actualImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_backgroundImage com.clique:backgroundImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_fadeDuration com.clique:fadeDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImage com.clique:failureImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImageScaleType com.clique:failureImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_overlayImage com.clique:overlayImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImage com.clique:placeholderImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImageScaleType com.clique:placeholderImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_pressedStateOverlayImage com.clique:pressedStateOverlayImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarAutoRotateInterval com.clique:progressBarAutoRotateInterval}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImage com.clique:progressBarImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImageScaleType com.clique:progressBarImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImage com.clique:retryImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImageScaleType com.clique:retryImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundAsCircle com.clique:roundAsCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomEnd com.clique:roundBottomEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomLeft com.clique:roundBottomLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomRight com.clique:roundBottomRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomStart com.clique:roundBottomStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopEnd com.clique:roundTopEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopLeft com.clique:roundTopLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopRight com.clique:roundTopRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopStart com.clique:roundTopStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundWithOverlayColor com.clique:roundWithOverlayColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundedCornerRadius com.clique:roundedCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderColor com.clique:roundingBorderColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderPadding com.clique:roundingBorderPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderWidth com.clique:roundingBorderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_viewAspectRatio com.clique:viewAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_actualImageScaleType org.reactjs.native.example.CliqueOrbital:actualImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_backgroundImage org.reactjs.native.example.CliqueOrbital:backgroundImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_fadeDuration org.reactjs.native.example.CliqueOrbital:fadeDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImage org.reactjs.native.example.CliqueOrbital:failureImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImageScaleType org.reactjs.native.example.CliqueOrbital:failureImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_overlayImage org.reactjs.native.example.CliqueOrbital:overlayImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImage org.reactjs.native.example.CliqueOrbital:placeholderImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImageScaleType org.reactjs.native.example.CliqueOrbital:placeholderImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_pressedStateOverlayImage org.reactjs.native.example.CliqueOrbital:pressedStateOverlayImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarAutoRotateInterval org.reactjs.native.example.CliqueOrbital:progressBarAutoRotateInterval}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImage org.reactjs.native.example.CliqueOrbital:progressBarImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImageScaleType org.reactjs.native.example.CliqueOrbital:progressBarImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImage org.reactjs.native.example.CliqueOrbital:retryImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImageScaleType org.reactjs.native.example.CliqueOrbital:retryImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundAsCircle org.reactjs.native.example.CliqueOrbital:roundAsCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomEnd org.reactjs.native.example.CliqueOrbital:roundBottomEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomLeft org.reactjs.native.example.CliqueOrbital:roundBottomLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomRight org.reactjs.native.example.CliqueOrbital:roundBottomRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomStart org.reactjs.native.example.CliqueOrbital:roundBottomStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopEnd org.reactjs.native.example.CliqueOrbital:roundTopEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopLeft org.reactjs.native.example.CliqueOrbital:roundTopLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopRight org.reactjs.native.example.CliqueOrbital:roundTopRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopStart org.reactjs.native.example.CliqueOrbital:roundTopStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundWithOverlayColor org.reactjs.native.example.CliqueOrbital:roundWithOverlayColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundedCornerRadius org.reactjs.native.example.CliqueOrbital:roundedCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderColor org.reactjs.native.example.CliqueOrbital:roundingBorderColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderPadding org.reactjs.native.example.CliqueOrbital:roundingBorderPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderWidth org.reactjs.native.example.CliqueOrbital:roundingBorderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_viewAspectRatio org.reactjs.native.example.CliqueOrbital:viewAspectRatio}</code></td><td></td></tr>
      * </table>
      * @see #GenericDraweeHierarchy_actualImageScaleType
      * @see #GenericDraweeHierarchy_backgroundImage
@@ -8300,7 +8308,7 @@ public final class R {
       0x7f020128
     };
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#actualImageScaleType}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#actualImageScaleType}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8321,11 +8329,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:actualImageScaleType
+     * @attr name org.reactjs.native.example.CliqueOrbital:actualImageScaleType
      */
     public static final int GenericDraweeHierarchy_actualImageScaleType=0;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#backgroundImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#backgroundImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8333,20 +8341,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:backgroundImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:backgroundImage
      */
     public static final int GenericDraweeHierarchy_backgroundImage=1;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#fadeDuration}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#fadeDuration}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.clique:fadeDuration
+     * @attr name org.reactjs.native.example.CliqueOrbital:fadeDuration
      */
     public static final int GenericDraweeHierarchy_fadeDuration=2;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#failureImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#failureImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8354,11 +8362,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:failureImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:failureImage
      */
     public static final int GenericDraweeHierarchy_failureImage=3;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#failureImageScaleType}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#failureImageScaleType}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8379,11 +8387,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:failureImageScaleType
+     * @attr name org.reactjs.native.example.CliqueOrbital:failureImageScaleType
      */
     public static final int GenericDraweeHierarchy_failureImageScaleType=4;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#overlayImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#overlayImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8391,11 +8399,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:overlayImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:overlayImage
      */
     public static final int GenericDraweeHierarchy_overlayImage=5;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#placeholderImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#placeholderImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8403,11 +8411,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:placeholderImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:placeholderImage
      */
     public static final int GenericDraweeHierarchy_placeholderImage=6;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#placeholderImageScaleType}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#placeholderImageScaleType}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8428,11 +8436,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:placeholderImageScaleType
+     * @attr name org.reactjs.native.example.CliqueOrbital:placeholderImageScaleType
      */
     public static final int GenericDraweeHierarchy_placeholderImageScaleType=7;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#pressedStateOverlayImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#pressedStateOverlayImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8440,20 +8448,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:pressedStateOverlayImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:pressedStateOverlayImage
      */
     public static final int GenericDraweeHierarchy_pressedStateOverlayImage=8;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#progressBarAutoRotateInterval}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#progressBarAutoRotateInterval}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.clique:progressBarAutoRotateInterval
+     * @attr name org.reactjs.native.example.CliqueOrbital:progressBarAutoRotateInterval
      */
     public static final int GenericDraweeHierarchy_progressBarAutoRotateInterval=9;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#progressBarImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#progressBarImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8461,11 +8469,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:progressBarImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:progressBarImage
      */
     public static final int GenericDraweeHierarchy_progressBarImage=10;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#progressBarImageScaleType}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#progressBarImageScaleType}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8486,11 +8494,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:progressBarImageScaleType
+     * @attr name org.reactjs.native.example.CliqueOrbital:progressBarImageScaleType
      */
     public static final int GenericDraweeHierarchy_progressBarImageScaleType=11;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#retryImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#retryImage}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8498,11 +8506,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:retryImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:retryImage
      */
     public static final int GenericDraweeHierarchy_retryImage=12;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#retryImageScaleType}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#retryImageScaleType}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8523,112 +8531,112 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:retryImageScaleType
+     * @attr name org.reactjs.native.example.CliqueOrbital:retryImageScaleType
      */
     public static final int GenericDraweeHierarchy_retryImageScaleType=13;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundAsCircle}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundAsCircle}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundAsCircle
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundAsCircle
      */
     public static final int GenericDraweeHierarchy_roundAsCircle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundBottomEnd}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundBottomEnd}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundBottomEnd
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundBottomEnd
      */
     public static final int GenericDraweeHierarchy_roundBottomEnd=15;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundBottomLeft}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundBottomLeft}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundBottomLeft
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundBottomLeft
      */
     public static final int GenericDraweeHierarchy_roundBottomLeft=16;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundBottomRight}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundBottomRight}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundBottomRight
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundBottomRight
      */
     public static final int GenericDraweeHierarchy_roundBottomRight=17;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundBottomStart}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundBottomStart}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundBottomStart
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundBottomStart
      */
     public static final int GenericDraweeHierarchy_roundBottomStart=18;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundTopEnd}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundTopEnd}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundTopEnd
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundTopEnd
      */
     public static final int GenericDraweeHierarchy_roundTopEnd=19;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundTopLeft}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundTopLeft}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundTopLeft
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundTopLeft
      */
     public static final int GenericDraweeHierarchy_roundTopLeft=20;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundTopRight}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundTopRight}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundTopRight
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundTopRight
      */
     public static final int GenericDraweeHierarchy_roundTopRight=21;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundTopStart}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundTopStart}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundTopStart
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundTopStart
      */
     public static final int GenericDraweeHierarchy_roundTopStart=22;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundWithOverlayColor}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundWithOverlayColor}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:roundWithOverlayColor
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundWithOverlayColor
      */
     public static final int GenericDraweeHierarchy_roundWithOverlayColor=23;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundedCornerRadius}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundedCornerRadius}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8637,22 +8645,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:roundedCornerRadius
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundedCornerRadius
      */
     public static final int GenericDraweeHierarchy_roundedCornerRadius=24;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundingBorderColor}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundingBorderColor}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:roundingBorderColor
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundingBorderColor
      */
     public static final int GenericDraweeHierarchy_roundingBorderColor=25;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundingBorderPadding}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundingBorderPadding}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8661,11 +8669,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:roundingBorderPadding
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundingBorderPadding
      */
     public static final int GenericDraweeHierarchy_roundingBorderPadding=26;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundingBorderWidth}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundingBorderWidth}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8674,16 +8682,16 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:roundingBorderWidth
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundingBorderWidth
      */
     public static final int GenericDraweeHierarchy_roundingBorderWidth=27;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#viewAspectRatio}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#viewAspectRatio}
      * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.clique:viewAspectRatio
+     * @attr name org.reactjs.native.example.CliqueOrbital:viewAspectRatio
      */
     public static final int GenericDraweeHierarchy_viewAspectRatio=28;
     /**
@@ -8941,11 +8949,11 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.clique:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.clique:dividerPadding}</code></td><td>Size of padding on either end of a divider.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.clique:measureWithLargestChild}</code></td><td>When set to true, all children with a weight will be considered having
+     * <tr><td><code>{@link #LinearLayoutCompat_divider org.reactjs.native.example.CliqueOrbital:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding org.reactjs.native.example.CliqueOrbital:dividerPadding}</code></td><td>Size of padding on either end of a divider.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild org.reactjs.native.example.CliqueOrbital:measureWithLargestChild}</code></td><td>When set to true, all children with a weight will be considered having
      * the minimum size of the largest child.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.clique:showDividers}</code></td><td>Setting for which dividers to show.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers org.reactjs.native.example.CliqueOrbital:showDividers}</code></td><td>Setting for which dividers to show.</td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -9060,7 +9068,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:divider
+     * @attr name org.reactjs.native.example.CliqueOrbital:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
@@ -9074,7 +9082,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:dividerPadding
+     * @attr name org.reactjs.native.example.CliqueOrbital:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
@@ -9087,7 +9095,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:measureWithLargestChild
+     * @attr name org.reactjs.native.example.CliqueOrbital:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
@@ -9107,7 +9115,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:showDividers
+     * @attr name org.reactjs.native.example.CliqueOrbital:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -9265,9 +9273,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LoadingImageView_circleCrop com.clique:circleCrop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.clique:imageAspectRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.clique:imageAspectRatioAdjust}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_circleCrop org.reactjs.native.example.CliqueOrbital:circleCrop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio org.reactjs.native.example.CliqueOrbital:imageAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust org.reactjs.native.example.CliqueOrbital:imageAspectRatioAdjust}</code></td><td></td></tr>
      * </table>
      * @see #LoadingImageView_circleCrop
      * @see #LoadingImageView_imageAspectRatio
@@ -9277,26 +9285,26 @@ public final class R {
       0x7f02004b, 0x7f020092, 0x7f020093
     };
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#circleCrop}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:circleCrop
+     * @attr name org.reactjs.native.example.CliqueOrbital:circleCrop
      */
     public static final int LoadingImageView_circleCrop=0;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#imageAspectRatio}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#imageAspectRatio}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.clique:imageAspectRatio
+     * @attr name org.reactjs.native.example.CliqueOrbital:imageAspectRatio
      */
     public static final int LoadingImageView_imageAspectRatio=1;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#imageAspectRatioAdjust}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#imageAspectRatioAdjust}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9310,7 +9318,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:imageAspectRatioAdjust
+     * @attr name org.reactjs.native.example.CliqueOrbital:imageAspectRatioAdjust
      */
     public static final int LoadingImageView_imageAspectRatioAdjust=2;
     /**
@@ -9444,18 +9452,18 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.clique:actionLayout}</code></td><td>An optional layout to be used as an action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.clique:actionProviderClass}</code></td><td>The name of an optional ActionProvider class to instantiate an action view
+     * <tr><td><code>{@link #MenuItem_actionLayout org.reactjs.native.example.CliqueOrbital:actionLayout}</code></td><td>An optional layout to be used as an action view.</td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass org.reactjs.native.example.CliqueOrbital:actionProviderClass}</code></td><td>The name of an optional ActionProvider class to instantiate an action view
      * and perform operations such as default action for that menu item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.clique:actionViewClass}</code></td><td>The name of an optional View class to instantiate and use as an
+     * <tr><td><code>{@link #MenuItem_actionViewClass org.reactjs.native.example.CliqueOrbital:actionViewClass}</code></td><td>The name of an optional View class to instantiate and use as an
      * action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.clique:alphabeticModifiers}</code></td><td>The alphabetic modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.clique:contentDescription}</code></td><td>The content description associated with the item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.clique:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.clique:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.clique:numericModifiers}</code></td><td>The numeric modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.clique:showAsAction}</code></td><td>How this item should display in the Action Bar, if present.</td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.clique:tooltipText}</code></td><td>The tooltip text associated with the item.</td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers org.reactjs.native.example.CliqueOrbital:alphabeticModifiers}</code></td><td>The alphabetic modifier key.</td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription org.reactjs.native.example.CliqueOrbital:contentDescription}</code></td><td>The content description associated with the item.</td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint org.reactjs.native.example.CliqueOrbital:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode org.reactjs.native.example.CliqueOrbital:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers org.reactjs.native.example.CliqueOrbital:numericModifiers}</code></td><td>The numeric modifier key.</td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction org.reactjs.native.example.CliqueOrbital:showAsAction}</code></td><td>How this item should display in the Action Bar, if present.</td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText org.reactjs.native.example.CliqueOrbital:tooltipText}</code></td><td>The tooltip text associated with the item.</td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -9664,7 +9672,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actionLayout
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
@@ -9678,7 +9686,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:actionProviderClass
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
@@ -9691,7 +9699,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:actionViewClass
+     * @attr name org.reactjs.native.example.CliqueOrbital:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
@@ -9714,7 +9722,7 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:alphabeticModifiers
+     * @attr name org.reactjs.native.example.CliqueOrbital:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
@@ -9725,7 +9733,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:contentDescription
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
@@ -9737,7 +9745,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:iconTint
+     * @attr name org.reactjs.native.example.CliqueOrbital:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
@@ -9764,7 +9772,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.clique:iconTintMode
+     * @attr name org.reactjs.native.example.CliqueOrbital:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
@@ -9787,7 +9795,7 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:numericModifiers
+     * @attr name org.reactjs.native.example.CliqueOrbital:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
@@ -9817,7 +9825,7 @@ public final class R {
      * label with it even if it has an icon representation.</td></tr>
      * </table>
      *
-     * @attr name com.clique:showAsAction
+     * @attr name org.reactjs.native.example.CliqueOrbital:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
@@ -9828,7 +9836,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:tooltipText
+     * @attr name org.reactjs.native.example.CliqueOrbital:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -9845,8 +9853,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.clique:preserveIconSpacing}</code></td><td>Whether space should be reserved in layout when an icon is missing.</td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.clique:subMenuArrow}</code></td><td>Drawable for the arrow icon indicating a particular item is a submenu.</td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing org.reactjs.native.example.CliqueOrbital:preserveIconSpacing}</code></td><td>Whether space should be reserved in layout when an icon is missing.</td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow org.reactjs.native.example.CliqueOrbital:subMenuArrow}</code></td><td>Drawable for the arrow icon indicating a particular item is a submenu.</td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -9965,7 +9973,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:preserveIconSpacing
+     * @attr name org.reactjs.native.example.CliqueOrbital:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
@@ -9978,7 +9986,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:subMenuArrow
+     * @attr name org.reactjs.native.example.CliqueOrbital:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -9990,7 +9998,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.clique:overlapAnchor}</code></td><td>Whether the popup window should overlap its anchor view.</td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor org.reactjs.native.example.CliqueOrbital:overlapAnchor}</code></td><td>Whether the popup window should overlap its anchor view.</td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -10034,7 +10042,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:overlapAnchor
+     * @attr name org.reactjs.native.example.CliqueOrbital:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -10044,7 +10052,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.clique:state_above_anchor}</code></td><td>State identifier indicating the popup will be above the anchor.</td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor org.reactjs.native.example.CliqueOrbital:state_above_anchor}</code></td><td>State identifier indicating the popup will be above the anchor.</td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -10059,7 +10067,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:state_above_anchor
+     * @attr name org.reactjs.native.example.CliqueOrbital:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -10069,8 +10077,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.clique:paddingBottomNoButtons}</code></td><td>Bottom padding to use when no buttons are present.</td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.clique:paddingTopNoTitle}</code></td><td>Top padding to use when no title is present.</td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons org.reactjs.native.example.CliqueOrbital:paddingBottomNoButtons}</code></td><td>Bottom padding to use when no buttons are present.</td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle org.reactjs.native.example.CliqueOrbital:paddingTopNoTitle}</code></td><td>Top padding to use when no title is present.</td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -10089,7 +10097,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:paddingBottomNoButtons
+     * @attr name org.reactjs.native.example.CliqueOrbital:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
@@ -10103,7 +10111,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:paddingTopNoTitle
+     * @attr name org.reactjs.native.example.CliqueOrbital:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -10117,20 +10125,20 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.clique:closeIcon}</code></td><td>Close button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.clique:commitIcon}</code></td><td>Commit icon shown in the query suggestion row</td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.clique:defaultQueryHint}</code></td><td>Default query hint used when {@code queryHint} is undefined and
+     * <tr><td><code>{@link #SearchView_closeIcon org.reactjs.native.example.CliqueOrbital:closeIcon}</code></td><td>Close button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon org.reactjs.native.example.CliqueOrbital:commitIcon}</code></td><td>Commit icon shown in the query suggestion row</td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint org.reactjs.native.example.CliqueOrbital:defaultQueryHint}</code></td><td>Default query hint used when {@code queryHint} is undefined and
      * the search view's {@code SearchableInfo} does not provide a hint.</td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.clique:goIcon}</code></td><td>Go button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.clique:iconifiedByDefault}</code></td><td>The default state of the SearchView.</td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.clique:layout}</code></td><td>The layout to use for the search view.</td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.clique:queryBackground}</code></td><td>Background for the section containing the search query</td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.clique:queryHint}</code></td><td>An optional user-defined query hint string to be displayed in the empty query field.</td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.clique:searchHintIcon}</code></td><td>Search icon displayed as a text field hint</td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.clique:searchIcon}</code></td><td>Search icon</td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.clique:submitBackground}</code></td><td>Background for the section containing the action (e.g.</td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.clique:suggestionRowLayout}</code></td><td>Layout for query suggestion rows</td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.clique:voiceIcon}</code></td><td>Voice button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon org.reactjs.native.example.CliqueOrbital:goIcon}</code></td><td>Go button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault org.reactjs.native.example.CliqueOrbital:iconifiedByDefault}</code></td><td>The default state of the SearchView.</td></tr>
+     * <tr><td><code>{@link #SearchView_layout org.reactjs.native.example.CliqueOrbital:layout}</code></td><td>The layout to use for the search view.</td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground org.reactjs.native.example.CliqueOrbital:queryBackground}</code></td><td>Background for the section containing the search query</td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint org.reactjs.native.example.CliqueOrbital:queryHint}</code></td><td>An optional user-defined query hint string to be displayed in the empty query field.</td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon org.reactjs.native.example.CliqueOrbital:searchHintIcon}</code></td><td>Search icon displayed as a text field hint</td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon org.reactjs.native.example.CliqueOrbital:searchIcon}</code></td><td>Search icon</td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground org.reactjs.native.example.CliqueOrbital:submitBackground}</code></td><td>Background for the section containing the action (e.g.</td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout org.reactjs.native.example.CliqueOrbital:suggestionRowLayout}</code></td><td>Layout for query suggestion rows</td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon org.reactjs.native.example.CliqueOrbital:voiceIcon}</code></td><td>Voice button icon</td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -10280,7 +10288,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:closeIcon
+     * @attr name org.reactjs.native.example.CliqueOrbital:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
@@ -10293,7 +10301,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:commitIcon
+     * @attr name org.reactjs.native.example.CliqueOrbital:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
@@ -10305,7 +10313,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:defaultQueryHint
+     * @attr name org.reactjs.native.example.CliqueOrbital:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
@@ -10318,7 +10326,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:goIcon
+     * @attr name org.reactjs.native.example.CliqueOrbital:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
@@ -10330,7 +10338,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:iconifiedByDefault
+     * @attr name org.reactjs.native.example.CliqueOrbital:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
@@ -10343,7 +10351,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:layout
+     * @attr name org.reactjs.native.example.CliqueOrbital:layout
      */
     public static final int SearchView_layout=9;
     /**
@@ -10356,7 +10364,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:queryBackground
+     * @attr name org.reactjs.native.example.CliqueOrbital:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
@@ -10367,7 +10375,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:queryHint
+     * @attr name org.reactjs.native.example.CliqueOrbital:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
@@ -10380,7 +10388,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:searchHintIcon
+     * @attr name org.reactjs.native.example.CliqueOrbital:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
@@ -10393,7 +10401,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:searchIcon
+     * @attr name org.reactjs.native.example.CliqueOrbital:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
@@ -10406,7 +10414,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:submitBackground
+     * @attr name org.reactjs.native.example.CliqueOrbital:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
@@ -10419,7 +10427,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:suggestionRowLayout
+     * @attr name org.reactjs.native.example.CliqueOrbital:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
@@ -10432,7 +10440,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:voiceIcon
+     * @attr name org.reactjs.native.example.CliqueOrbital:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -10442,9 +10450,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SignInButton_buttonSize com.clique:buttonSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_colorScheme com.clique:colorScheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_scopeUris com.clique:scopeUris}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_buttonSize org.reactjs.native.example.CliqueOrbital:buttonSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_colorScheme org.reactjs.native.example.CliqueOrbital:colorScheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_scopeUris org.reactjs.native.example.CliqueOrbital:scopeUris}</code></td><td></td></tr>
      * </table>
      * @see #SignInButton_buttonSize
      * @see #SignInButton_colorScheme
@@ -10454,7 +10462,7 @@ public final class R {
       0x7f020044, 0x7f02005a, 0x7f0200e2
     };
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#buttonSize}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10472,11 +10480,11 @@ public final class R {
      * <tr><td>wide</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:buttonSize
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonSize
      */
     public static final int SignInButton_buttonSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#colorScheme}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#colorScheme}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10494,11 +10502,11 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:colorScheme
+     * @attr name org.reactjs.native.example.CliqueOrbital:colorScheme
      */
     public static final int SignInButton_colorScheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#scopeUris}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#scopeUris}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10508,7 +10516,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:scopeUris
+     * @attr name org.reactjs.native.example.CliqueOrbital:scopeUris
      */
     public static final int SignInButton_scopeUris=2;
     /**
@@ -10518,37 +10526,37 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageResource com.clique:actualImageResource}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageScaleType com.clique:actualImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageUri com.clique:actualImageUri}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_backgroundImage com.clique:backgroundImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_fadeDuration com.clique:fadeDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_failureImage com.clique:failureImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_failureImageScaleType com.clique:failureImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_overlayImage com.clique:overlayImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_placeholderImage com.clique:placeholderImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_placeholderImageScaleType com.clique:placeholderImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_pressedStateOverlayImage com.clique:pressedStateOverlayImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarAutoRotateInterval com.clique:progressBarAutoRotateInterval}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarImage com.clique:progressBarImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarImageScaleType com.clique:progressBarImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_retryImage com.clique:retryImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_retryImageScaleType com.clique:retryImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundAsCircle com.clique:roundAsCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomEnd com.clique:roundBottomEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomLeft com.clique:roundBottomLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomRight com.clique:roundBottomRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomStart com.clique:roundBottomStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopEnd com.clique:roundTopEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopLeft com.clique:roundTopLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopRight com.clique:roundTopRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopStart com.clique:roundTopStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundWithOverlayColor com.clique:roundWithOverlayColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundedCornerRadius com.clique:roundedCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderColor com.clique:roundingBorderColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderPadding com.clique:roundingBorderPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderWidth com.clique:roundingBorderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_viewAspectRatio com.clique:viewAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageResource org.reactjs.native.example.CliqueOrbital:actualImageResource}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageScaleType org.reactjs.native.example.CliqueOrbital:actualImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageUri org.reactjs.native.example.CliqueOrbital:actualImageUri}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_backgroundImage org.reactjs.native.example.CliqueOrbital:backgroundImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_fadeDuration org.reactjs.native.example.CliqueOrbital:fadeDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_failureImage org.reactjs.native.example.CliqueOrbital:failureImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_failureImageScaleType org.reactjs.native.example.CliqueOrbital:failureImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_overlayImage org.reactjs.native.example.CliqueOrbital:overlayImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_placeholderImage org.reactjs.native.example.CliqueOrbital:placeholderImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_placeholderImageScaleType org.reactjs.native.example.CliqueOrbital:placeholderImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_pressedStateOverlayImage org.reactjs.native.example.CliqueOrbital:pressedStateOverlayImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarAutoRotateInterval org.reactjs.native.example.CliqueOrbital:progressBarAutoRotateInterval}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarImage org.reactjs.native.example.CliqueOrbital:progressBarImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarImageScaleType org.reactjs.native.example.CliqueOrbital:progressBarImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_retryImage org.reactjs.native.example.CliqueOrbital:retryImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_retryImageScaleType org.reactjs.native.example.CliqueOrbital:retryImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundAsCircle org.reactjs.native.example.CliqueOrbital:roundAsCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomEnd org.reactjs.native.example.CliqueOrbital:roundBottomEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomLeft org.reactjs.native.example.CliqueOrbital:roundBottomLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomRight org.reactjs.native.example.CliqueOrbital:roundBottomRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomStart org.reactjs.native.example.CliqueOrbital:roundBottomStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopEnd org.reactjs.native.example.CliqueOrbital:roundTopEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopLeft org.reactjs.native.example.CliqueOrbital:roundTopLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopRight org.reactjs.native.example.CliqueOrbital:roundTopRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopStart org.reactjs.native.example.CliqueOrbital:roundTopStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundWithOverlayColor org.reactjs.native.example.CliqueOrbital:roundWithOverlayColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundedCornerRadius org.reactjs.native.example.CliqueOrbital:roundedCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderColor org.reactjs.native.example.CliqueOrbital:roundingBorderColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderPadding org.reactjs.native.example.CliqueOrbital:roundingBorderPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderWidth org.reactjs.native.example.CliqueOrbital:roundingBorderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_viewAspectRatio org.reactjs.native.example.CliqueOrbital:viewAspectRatio}</code></td><td></td></tr>
      * </table>
      * @see #SimpleDraweeView_actualImageResource
      * @see #SimpleDraweeView_actualImageScaleType
@@ -10593,7 +10601,7 @@ public final class R {
       0x7f0200e0, 0x7f0200e1, 0x7f020128
     };
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#actualImageResource}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#actualImageResource}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10601,11 +10609,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:actualImageResource
+     * @attr name org.reactjs.native.example.CliqueOrbital:actualImageResource
      */
     public static final int SimpleDraweeView_actualImageResource=0;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#actualImageScaleType}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#actualImageScaleType}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10626,21 +10634,21 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:actualImageScaleType
+     * @attr name org.reactjs.native.example.CliqueOrbital:actualImageScaleType
      */
     public static final int SimpleDraweeView_actualImageScaleType=1;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#actualImageUri}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#actualImageUri}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:actualImageUri
+     * @attr name org.reactjs.native.example.CliqueOrbital:actualImageUri
      */
     public static final int SimpleDraweeView_actualImageUri=2;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#backgroundImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#backgroundImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10648,20 +10656,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:backgroundImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:backgroundImage
      */
     public static final int SimpleDraweeView_backgroundImage=3;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#fadeDuration}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#fadeDuration}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.clique:fadeDuration
+     * @attr name org.reactjs.native.example.CliqueOrbital:fadeDuration
      */
     public static final int SimpleDraweeView_fadeDuration=4;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#failureImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#failureImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10669,11 +10677,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:failureImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:failureImage
      */
     public static final int SimpleDraweeView_failureImage=5;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#failureImageScaleType}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#failureImageScaleType}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10694,11 +10702,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:failureImageScaleType
+     * @attr name org.reactjs.native.example.CliqueOrbital:failureImageScaleType
      */
     public static final int SimpleDraweeView_failureImageScaleType=6;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#overlayImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#overlayImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10706,11 +10714,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:overlayImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:overlayImage
      */
     public static final int SimpleDraweeView_overlayImage=7;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#placeholderImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#placeholderImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10718,11 +10726,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:placeholderImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:placeholderImage
      */
     public static final int SimpleDraweeView_placeholderImage=8;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#placeholderImageScaleType}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#placeholderImageScaleType}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10743,11 +10751,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:placeholderImageScaleType
+     * @attr name org.reactjs.native.example.CliqueOrbital:placeholderImageScaleType
      */
     public static final int SimpleDraweeView_placeholderImageScaleType=9;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#pressedStateOverlayImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#pressedStateOverlayImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10755,20 +10763,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:pressedStateOverlayImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:pressedStateOverlayImage
      */
     public static final int SimpleDraweeView_pressedStateOverlayImage=10;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#progressBarAutoRotateInterval}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#progressBarAutoRotateInterval}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.clique:progressBarAutoRotateInterval
+     * @attr name org.reactjs.native.example.CliqueOrbital:progressBarAutoRotateInterval
      */
     public static final int SimpleDraweeView_progressBarAutoRotateInterval=11;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#progressBarImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#progressBarImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10776,11 +10784,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:progressBarImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:progressBarImage
      */
     public static final int SimpleDraweeView_progressBarImage=12;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#progressBarImageScaleType}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#progressBarImageScaleType}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10801,11 +10809,11 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:progressBarImageScaleType
+     * @attr name org.reactjs.native.example.CliqueOrbital:progressBarImageScaleType
      */
     public static final int SimpleDraweeView_progressBarImageScaleType=13;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#retryImage}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#retryImage}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10813,11 +10821,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:retryImage
+     * @attr name org.reactjs.native.example.CliqueOrbital:retryImage
      */
     public static final int SimpleDraweeView_retryImage=14;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#retryImageScaleType}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#retryImageScaleType}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10838,112 +10846,112 @@ public final class R {
      * <tr><td>none</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.clique:retryImageScaleType
+     * @attr name org.reactjs.native.example.CliqueOrbital:retryImageScaleType
      */
     public static final int SimpleDraweeView_retryImageScaleType=15;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundAsCircle}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundAsCircle}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundAsCircle
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundAsCircle
      */
     public static final int SimpleDraweeView_roundAsCircle=16;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundBottomEnd}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundBottomEnd}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundBottomEnd
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundBottomEnd
      */
     public static final int SimpleDraweeView_roundBottomEnd=17;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundBottomLeft}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundBottomLeft}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundBottomLeft
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundBottomLeft
      */
     public static final int SimpleDraweeView_roundBottomLeft=18;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundBottomRight}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundBottomRight}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundBottomRight
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundBottomRight
      */
     public static final int SimpleDraweeView_roundBottomRight=19;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundBottomStart}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundBottomStart}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundBottomStart
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundBottomStart
      */
     public static final int SimpleDraweeView_roundBottomStart=20;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundTopEnd}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundTopEnd}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundTopEnd
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundTopEnd
      */
     public static final int SimpleDraweeView_roundTopEnd=21;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundTopLeft}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundTopLeft}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundTopLeft
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundTopLeft
      */
     public static final int SimpleDraweeView_roundTopLeft=22;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundTopRight}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundTopRight}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundTopRight
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundTopRight
      */
     public static final int SimpleDraweeView_roundTopRight=23;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundTopStart}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundTopStart}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:roundTopStart
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundTopStart
      */
     public static final int SimpleDraweeView_roundTopStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundWithOverlayColor}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundWithOverlayColor}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:roundWithOverlayColor
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundWithOverlayColor
      */
     public static final int SimpleDraweeView_roundWithOverlayColor=25;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundedCornerRadius}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundedCornerRadius}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10952,22 +10960,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:roundedCornerRadius
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundedCornerRadius
      */
     public static final int SimpleDraweeView_roundedCornerRadius=26;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundingBorderColor}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundingBorderColor}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:roundingBorderColor
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundingBorderColor
      */
     public static final int SimpleDraweeView_roundingBorderColor=27;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundingBorderPadding}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundingBorderPadding}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10976,11 +10984,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:roundingBorderPadding
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundingBorderPadding
      */
     public static final int SimpleDraweeView_roundingBorderPadding=28;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#roundingBorderWidth}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#roundingBorderWidth}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10989,16 +10997,16 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:roundingBorderWidth
+     * @attr name org.reactjs.native.example.CliqueOrbital:roundingBorderWidth
      */
     public static final int SimpleDraweeView_roundingBorderWidth=29;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#viewAspectRatio}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#viewAspectRatio}
      * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.clique:viewAspectRatio
+     * @attr name org.reactjs.native.example.CliqueOrbital:viewAspectRatio
      */
     public static final int SimpleDraweeView_viewAspectRatio=30;
     /**
@@ -11012,7 +11020,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.clique:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
+     * <tr><td><code>{@link #Spinner_popupTheme org.reactjs.native.example.CliqueOrbital:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.</td></tr>
      * </table>
      * @see #Spinner_android_entries
@@ -11101,7 +11109,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:popupTheme
+     * @attr name org.reactjs.native.example.CliqueOrbital:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -11241,17 +11249,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.clique:showText}</code></td><td>Whether to draw on/off text.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.clique:splitTrack}</code></td><td>Whether to split the track and leave a gap for the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.clique:switchMinWidth}</code></td><td>Minimum width for the switch component</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.clique:switchPadding}</code></td><td>Minimum space between the switch and caption text</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.clique:switchTextAppearance}</code></td><td>TextAppearance style for text displayed on the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.clique:thumbTextPadding}</code></td><td>Amount of padding on either side of text within the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.clique:thumbTint}</code></td><td>Tint to apply to the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.clique:thumbTintMode}</code></td><td>Blending mode used to apply the thumb tint.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.clique:track}</code></td><td>Drawable to use as the "track" that the switch thumb slides within.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.clique:trackTint}</code></td><td>Tint to apply to the track.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.clique:trackTintMode}</code></td><td>Blending mode used to apply the track tint.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText org.reactjs.native.example.CliqueOrbital:showText}</code></td><td>Whether to draw on/off text.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack org.reactjs.native.example.CliqueOrbital:splitTrack}</code></td><td>Whether to split the track and leave a gap for the thumb drawable.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth org.reactjs.native.example.CliqueOrbital:switchMinWidth}</code></td><td>Minimum width for the switch component</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding org.reactjs.native.example.CliqueOrbital:switchPadding}</code></td><td>Minimum space between the switch and caption text</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance org.reactjs.native.example.CliqueOrbital:switchTextAppearance}</code></td><td>TextAppearance style for text displayed on the switch thumb.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding org.reactjs.native.example.CliqueOrbital:thumbTextPadding}</code></td><td>Amount of padding on either side of text within the switch thumb.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint org.reactjs.native.example.CliqueOrbital:thumbTint}</code></td><td>Tint to apply to the thumb drawable.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode org.reactjs.native.example.CliqueOrbital:thumbTintMode}</code></td><td>Blending mode used to apply the thumb tint.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track org.reactjs.native.example.CliqueOrbital:track}</code></td><td>Drawable to use as the "track" that the switch thumb slides within.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint org.reactjs.native.example.CliqueOrbital:trackTint}</code></td><td>Tint to apply to the track.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode org.reactjs.native.example.CliqueOrbital:trackTintMode}</code></td><td>Blending mode used to apply the track tint.</td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -11317,7 +11325,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:showText
+     * @attr name org.reactjs.native.example.CliqueOrbital:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
@@ -11328,7 +11336,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:splitTrack
+     * @attr name org.reactjs.native.example.CliqueOrbital:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
@@ -11342,7 +11350,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:switchMinWidth
+     * @attr name org.reactjs.native.example.CliqueOrbital:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
@@ -11356,7 +11364,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:switchPadding
+     * @attr name org.reactjs.native.example.CliqueOrbital:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
@@ -11369,7 +11377,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:switchTextAppearance
+     * @attr name org.reactjs.native.example.CliqueOrbital:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
@@ -11383,7 +11391,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:thumbTextPadding
+     * @attr name org.reactjs.native.example.CliqueOrbital:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
@@ -11395,7 +11403,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:thumbTint
+     * @attr name org.reactjs.native.example.CliqueOrbital:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
@@ -11422,7 +11430,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.clique:thumbTintMode
+     * @attr name org.reactjs.native.example.CliqueOrbital:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
@@ -11435,7 +11443,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:track
+     * @attr name org.reactjs.native.example.CliqueOrbital:track
      */
     public static final int SwitchCompat_track=11;
     /**
@@ -11447,7 +11455,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:trackTint
+     * @attr name org.reactjs.native.example.CliqueOrbital:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
@@ -11474,7 +11482,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.clique:trackTintMode
+     * @attr name org.reactjs.native.example.CliqueOrbital:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -11495,8 +11503,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.clique:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.clique:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily org.reactjs.native.example.CliqueOrbital:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps org.reactjs.native.example.CliqueOrbital:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -11669,7 +11677,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:fontFamily
+     * @attr name org.reactjs.native.example.CliqueOrbital:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
@@ -11684,7 +11692,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.clique:textAllCaps
+     * @attr name org.reactjs.native.example.CliqueOrbital:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -11696,40 +11704,40 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.clique:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.clique:collapseContentDescription}</code></td><td>Text to set as the content description for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.clique:collapseIcon}</code></td><td>Icon drawable to use for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.clique:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.clique:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
+     * <tr><td><code>{@link #Toolbar_buttonGravity org.reactjs.native.example.CliqueOrbital:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription org.reactjs.native.example.CliqueOrbital:collapseContentDescription}</code></td><td>Text to set as the content description for the collapse button.</td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon org.reactjs.native.example.CliqueOrbital:collapseIcon}</code></td><td>Icon drawable to use for the collapse button.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd org.reactjs.native.example.CliqueOrbital:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions org.reactjs.native.example.CliqueOrbital:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
      * are present.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.clique:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.clique:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.clique:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.clique:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft org.reactjs.native.example.CliqueOrbital:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight org.reactjs.native.example.CliqueOrbital:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart org.reactjs.native.example.CliqueOrbital:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation org.reactjs.native.example.CliqueOrbital:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
      * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.clique:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.clique:logoDescription}</code></td><td>A content description string to describe the appearance of the
+     * <tr><td><code>{@link #Toolbar_logo org.reactjs.native.example.CliqueOrbital:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription org.reactjs.native.example.CliqueOrbital:logoDescription}</code></td><td>A content description string to describe the appearance of the
      * associated logo image.</td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.clique:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.clique:navigationContentDescription}</code></td><td>Text to set as the content description for the navigation button
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight org.reactjs.native.example.CliqueOrbital:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription org.reactjs.native.example.CliqueOrbital:navigationContentDescription}</code></td><td>Text to set as the content description for the navigation button
      * located at the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.clique:navigationIcon}</code></td><td>Icon drawable to use for the navigation button located at
+     * <tr><td><code>{@link #Toolbar_navigationIcon org.reactjs.native.example.CliqueOrbital:navigationIcon}</code></td><td>Icon drawable to use for the navigation button located at
      * the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.clique:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
+     * <tr><td><code>{@link #Toolbar_popupTheme org.reactjs.native.example.CliqueOrbital:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.clique:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.clique:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.clique:subtitleTextColor}</code></td><td>A color to apply to the subtitle string.</td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.clique:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.clique:titleMargin}</code></td><td>Specifies extra space on the left, start, right and end sides
+     * <tr><td><code>{@link #Toolbar_subtitle org.reactjs.native.example.CliqueOrbital:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance org.reactjs.native.example.CliqueOrbital:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor org.reactjs.native.example.CliqueOrbital:subtitleTextColor}</code></td><td>A color to apply to the subtitle string.</td></tr>
+     * <tr><td><code>{@link #Toolbar_title org.reactjs.native.example.CliqueOrbital:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin org.reactjs.native.example.CliqueOrbital:titleMargin}</code></td><td>Specifies extra space on the left, start, right and end sides
      * of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.clique:titleMarginBottom}</code></td><td>Specifies extra space on the bottom side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.clique:titleMarginEnd}</code></td><td>Specifies extra space on the end side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.clique:titleMarginStart}</code></td><td>Specifies extra space on the start side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.clique:titleMarginTop}</code></td><td>Specifies extra space on the top side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.clique:titleMargins}</code></td><td>{@deprecated Use titleMargin}</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.clique:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.clique:titleTextColor}</code></td><td>A color to apply to the title string.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom org.reactjs.native.example.CliqueOrbital:titleMarginBottom}</code></td><td>Specifies extra space on the bottom side of the toolbar's title.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd org.reactjs.native.example.CliqueOrbital:titleMarginEnd}</code></td><td>Specifies extra space on the end side of the toolbar's title.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart org.reactjs.native.example.CliqueOrbital:titleMarginStart}</code></td><td>Specifies extra space on the start side of the toolbar's title.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop org.reactjs.native.example.CliqueOrbital:titleMarginTop}</code></td><td>Specifies extra space on the top side of the toolbar's title.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins org.reactjs.native.example.CliqueOrbital:titleMargins}</code></td><td>{@deprecated Use titleMargin}</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance org.reactjs.native.example.CliqueOrbital:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor org.reactjs.native.example.CliqueOrbital:titleTextColor}</code></td><td>A color to apply to the title string.</td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -11815,7 +11823,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11828,7 +11836,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
      * </table>
      *
-     * @attr name com.clique:buttonGravity
+     * @attr name org.reactjs.native.example.CliqueOrbital:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
@@ -11839,7 +11847,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:collapseContentDescription
+     * @attr name org.reactjs.native.example.CliqueOrbital:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
@@ -11852,7 +11860,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:collapseIcon
+     * @attr name org.reactjs.native.example.CliqueOrbital:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
@@ -11867,7 +11875,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:contentInsetEnd
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
@@ -11882,7 +11890,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:contentInsetEndWithActions
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
@@ -11897,7 +11905,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:contentInsetLeft
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
@@ -11912,7 +11920,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:contentInsetRight
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
@@ -11927,7 +11935,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:contentInsetStart
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
@@ -11942,7 +11950,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:contentInsetStartWithNavigation
+     * @attr name org.reactjs.native.example.CliqueOrbital:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
@@ -11956,7 +11964,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:logo
+     * @attr name org.reactjs.native.example.CliqueOrbital:logo
      */
     public static final int Toolbar_logo=11;
     /**
@@ -11968,11 +11976,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:logoDescription
+     * @attr name org.reactjs.native.example.CliqueOrbital:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11981,7 +11989,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:maxButtonHeight
+     * @attr name org.reactjs.native.example.CliqueOrbital:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
@@ -11993,7 +12001,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:navigationContentDescription
+     * @attr name org.reactjs.native.example.CliqueOrbital:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
@@ -12007,7 +12015,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:navigationIcon
+     * @attr name org.reactjs.native.example.CliqueOrbital:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
@@ -12021,7 +12029,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:popupTheme
+     * @attr name org.reactjs.native.example.CliqueOrbital:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
@@ -12032,11 +12040,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:subtitle
+     * @attr name org.reactjs.native.example.CliqueOrbital:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12044,7 +12052,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:subtitleTextAppearance
+     * @attr name org.reactjs.native.example.CliqueOrbital:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
@@ -12056,17 +12064,17 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:subtitleTextColor
+     * @attr name org.reactjs.native.example.CliqueOrbital:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#title}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.clique:title
+     * @attr name org.reactjs.native.example.CliqueOrbital:title
      */
     public static final int Toolbar_title=20;
     /**
@@ -12081,7 +12089,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:titleMargin
+     * @attr name org.reactjs.native.example.CliqueOrbital:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
@@ -12097,7 +12105,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:titleMarginBottom
+     * @attr name org.reactjs.native.example.CliqueOrbital:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
@@ -12113,7 +12121,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:titleMarginEnd
+     * @attr name org.reactjs.native.example.CliqueOrbital:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
@@ -12129,7 +12137,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:titleMarginStart
+     * @attr name org.reactjs.native.example.CliqueOrbital:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
@@ -12145,7 +12153,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:titleMarginTop
+     * @attr name org.reactjs.native.example.CliqueOrbital:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
@@ -12159,12 +12167,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:titleMargins
+     * @attr name org.reactjs.native.example.CliqueOrbital:titleMargins
      */
     @Deprecated
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.clique.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link org.reactjs.native.example.CliqueOrbital.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12172,7 +12180,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:titleTextAppearance
+     * @attr name org.reactjs.native.example.CliqueOrbital:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
@@ -12184,7 +12192,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:titleTextColor
+     * @attr name org.reactjs.native.example.CliqueOrbital:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -12196,9 +12204,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.clique:paddingEnd}</code></td><td>Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.clique:paddingStart}</code></td><td>Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_theme com.clique:theme}</code></td><td>Deprecated.</td></tr>
+     * <tr><td><code>{@link #View_paddingEnd org.reactjs.native.example.CliqueOrbital:paddingEnd}</code></td><td>Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
+     * <tr><td><code>{@link #View_paddingStart org.reactjs.native.example.CliqueOrbital:paddingStart}</code></td><td>Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
+     * <tr><td><code>{@link #View_theme org.reactjs.native.example.CliqueOrbital:theme}</code></td><td>Deprecated.</td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -12260,7 +12268,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:paddingEnd
+     * @attr name org.reactjs.native.example.CliqueOrbital:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
@@ -12274,7 +12282,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.clique:paddingStart
+     * @attr name org.reactjs.native.example.CliqueOrbital:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
@@ -12287,7 +12295,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.clique:theme
+     * @attr name org.reactjs.native.example.CliqueOrbital:theme
      */
     public static final int View_theme=4;
     /**
@@ -12298,8 +12306,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.clique:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.clique:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint org.reactjs.native.example.CliqueOrbital:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode org.reactjs.native.example.CliqueOrbital:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -12332,7 +12340,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.clique:backgroundTint
+     * @attr name org.reactjs.native.example.CliqueOrbital:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
@@ -12359,7 +12367,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.clique:backgroundTintMode
+     * @attr name org.reactjs.native.example.CliqueOrbital:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

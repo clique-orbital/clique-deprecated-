@@ -4,9 +4,6 @@ import { SafeAreaView } from "react-navigation";
 
 import firebase from "react-native-firebase";
 
-const successImageUri =
-  "https://cdn.pixabay.com/photo/2015/06/09/16/12/icon-803718_1280.png";
-
 export default class PhoneAuthTest extends Component {
   constructor(props) {
     super(props);
@@ -15,7 +12,7 @@ export default class PhoneAuthTest extends Component {
       user: null,
       message: "",
       codeInput: "",
-      phoneNumber: "+44",
+      phoneNumber: "+65",
       confirmResult: null
     };
   }
@@ -30,7 +27,7 @@ export default class PhoneAuthTest extends Component {
           user: null,
           message: "",
           codeInput: "",
-          phoneNumber: "+44",
+          phoneNumber: "+65",
           confirmResult: null
         });
       }
